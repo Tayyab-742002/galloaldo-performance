@@ -1,0 +1,18 @@
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(./headscript.html): failed to open stream: No such file or directory in /home/adzdojwn/public_html/css/index.php on line 218
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(./headscript.html): failed to open stream: No such file or directory in /home/adzdojwn/public_html/css/index.php on line 218
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(): Failed opening './headscript.html' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/adzdojwn/public_html/css/index.php on line 218
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(./bodyscript.html): failed to open stream: No such file or directory in /home/adzdojwn/public_html/css/index.php on line 332
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(./bodyscript.html): failed to open stream: No such file or directory in /home/adzdojwn/public_html/css/index.php on line 332
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(): Failed opening './bodyscript.html' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/adzdojwn/public_html/css/index.php on line 332
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(./nav.html): failed to open stream: No such file or directory in /home/adzdojwn/public_html/css/index.php on line 437
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(./nav.html): failed to open stream: No such file or directory in /home/adzdojwn/public_html/css/index.php on line 437
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(): Failed opening './nav.html' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/adzdojwn/public_html/css/index.php on line 437
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(./nav-info.html): failed to open stream: No such file or directory in /home/adzdojwn/public_html/css/index.php on line 443
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(./nav-info.html): failed to open stream: No such file or directory in /home/adzdojwn/public_html/css/index.php on line 443
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(): Failed opening './nav-info.html' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/adzdojwn/public_html/css/index.php on line 443
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(./banner-contatti-footer.html): failed to open stream: No such file or directory in /home/adzdojwn/public_html/css/index.php on line 1265
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(./banner-contatti-footer.html): failed to open stream: No such file or directory in /home/adzdojwn/public_html/css/index.php on line 1265
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(): Failed opening './banner-contatti-footer.html' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/adzdojwn/public_html/css/index.php on line 1265
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(./footer.html): failed to open stream: No such file or directory in /home/adzdojwn/public_html/css/index.php on line 1270
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(./footer.html): failed to open stream: No such file or directory in /home/adzdojwn/public_html/css/index.php on line 1270
+[14-Feb-2026 04:02:53 UTC] PHP Warning:  include(): Failed opening './footer.html' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/adzdojwn/public_html/css/index.php on line 1270

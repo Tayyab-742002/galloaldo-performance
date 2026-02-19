@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-859280756"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-859280756');
+</script>
+
+
+
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <?php include_once $_SERVER['DOCUMENT_ROOT'].'/head-perf.php'; ?>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+    <title>Aste, pennoni e accessori per bandiere, Aste per bandiere made in Italy.</title>
+   <meta name="description" content="La Gallo Aldo, di Concesio (BS), è un’azienda all’avanguardia, in Italia, nella produzione di aste, pennoni ed accessori per bandiere in metallo e fusione. ">	
+   <meta property="og:image" content="https://www.galloaldo.com/prodotti/emblemi-regioni-italiane/emblemi-per-le-bandiere-regioni-italiane.webp" />
+	<?php include ("../headscript.html")?>
+</head>
+
+<body class="preloader-visible" >
+
+<?php include ("../bodyscript.html")?>
+
+
+  <!-- preloader start -->
+  <div class="preloader js-preloader">
+    <div class="preloader__bg"></div>
+
+    <div class="preloader__progress">
+      <div class="preloader__progress__inner"></div>
+    </div>
+  </div>
+  <!-- preloader end -->
+
+
+  <!-- cursor start -->
+  <div class="cursor js-cursor">
+    <div class="cursor__wrapper">
+      <div class="cursor__follower js-follower"></div>
+      <div class="cursor__label js-label"></div>
+      <div class="cursor__icon js-icon"></div>
+    </div>
+  </div>
+  <!-- cursor end -->
+
+
+  <!-- barba container start -->
+  <div class="barba-container" data-barba="container">
+
+    <!-- to-top-button start -->
+    <div data-cursor class="backButton js-backButton">
+      <span class="backButton__bg"></span>
+      <div class="backButton__icon__wrap">
+        <i class="backButton__button js-top-button" data-feather="arrow-up"></i>
+      </div>
+    </div>
+    <!-- to-top-button end -->
+
+
+    <main class="bg-dark-1">
+
+
+      <!-- header start -->
+      <header class="header -dark -sticky-dark js-header-dark js-header">
+       <!-- header__bar start -->
+        <div class="header__bar">
+          <div class="header__logo js-header-logo">
+            <a data-barba href="../index.php" title="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
+               <img class="header__logo__light js-lazy" data-srcset="../img/gallo-aldo-srl-logo.png 1x, ../img/gallo-aldo-srl-logo.png 2x" data-src="../img/gallo-aldo-srl-logo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
+            </a>            <a data-barba href="../">
+              <img class="header__logo__dark js-lazy"data-srcset="../img/logo-white-gallo-aldo.png 1x, ../img/logo-white-gallo-aldo.png 2x" data-src="../img/logo-white-gallo-aldo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
+            </a>
+          </div>
+
+          <div class="menustyle header__menu js-header-menu">
+            <button type="button" class="nav-button-open js-nav-open">
+              <i class="icon" data-feather="menu"></i>
+            </button>
+			  <a href="https://www.galloaldo.com/en-EN/"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>  	
+          </div>
+        </div>
+        <!-- header__bar end -->
+
+<!-- nav start -->
+        <nav class="nav js-nav">
+          <div class="nav__inner js-nav-inner">
+            <div class="nav__bg js-nav-bg"></div>
+
+            <div class="nav__container">
+              <div class="nav__header">
+                <button type="button" class="nav-button-back js-nav-back">
+                  <i class="icon" data-feather="arrow-left-circle"></i>
+                </button>
+
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                  <i class="icon" data-feather="x"></i>
+                </button>
+              </div>
+
+              <div class="nav__content">
+				  <!--LOAD NAV CONTENT-->
+                <?php include ("../nav-lev2.html")?>
+				<!--END NAV CONTENT-->
+                <div class="nav__content__right">
+                   <div class="nav__info">
+					<!--LOAD NAV INFO-->
+					
+                <?php include ("../nav-info-lev2.html")?>
+				<!--END NAV INFO-->
+				<!--SWITCH LANG-->
+					<div class="nav__info__item js-navInfo-item" style="margin-top:0 !important;">
+					   <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="../en-EN/products/index.php"><img src="../img/uk-flag.svg" class="mw36"></a>    
+                      </div>
+					   </div>
+				<!--END SWTICH LANG-->	
+					</div>
+					
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- nav end -->
+      </header>
+      <!-- header end -->
+
+
+      <!-- section start -->
+      <section class="masthead -type-4 js-masthead-type-4">
+        <!-- container start -->
+        <div class="container-fluid px-0">
+          <!-- row start -->
+          <div class="row no-gutters align-items-center h-full">
+            <div class="col-lg-3 offset-lg-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1 sm:px-20 z-2">
+              <div class="masthead__content">
+                <div data-split="lines" data-split-page-reveal>
+                  <p class="masthead__subtitle uppercase text-sm tracking-md text-light mb-24 md:mb-16 js-subtitle">
+                    I nostri Prodotti
+                  </p>
+                </div>
+
+                <div data-split="lines" data-split-page-reveal class="mr-minus-lg md:mr-0">
+                  <h1 class="masthead__title fw-700 text-white js-title">
+                    Produttore leader di aste, pennoni e accessori per bandiere in metallo e fusione.
+                  </h1>
+                </div>
+
+                <div data-split="lines" data-split-page-reveal>
+                  <p class="masthead__text text-light mt-40 md:mt-20 js-text">
+                     La Gallo Aldo garantisce al cliente un prodotto di altissima qualità, mantenendo, allo stesso tempo, un prezzo concorrenziale e molto competitivo.
+                  </p>
+                </div>
+
+                <div class="masthead__button overflow-hidden mt-48 md:mt-32">
+                  <a href="../richiedi-catalogo.php" class="button -md -white text-black js-button">
+                    Richiedi il Catalogo
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-5 offset-xl-1 col-lg-6 offset-lg-1 z-1">
+              <div data-parallax="0.7" class="masthead__img overflow-hidden h-100vh ml-minus-sm md:ml-0">
+                <div data-parallax-target class="bg-image js-lazy js-image" data-bg="./prodotti-main-pic.jpg"></div>
+                <div class="masthead__img__cover js-image-cover"></div>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+
+        
+      </section>
+      <!-- section end -->
+
+
+      <!-- section start -->
+      <section class="layout-pt-xl layout-pb-lg">
+        <!-- container start -->
+        <div class="container">
+
+          <!-- row start -->
+          <div class="row">
+            <div class="col-xl-9 col-md-12">
+              <div class="sectionHeading -sm">
+                
+                <h2 class="sectionHeading__title fw-600 text-white">
+                  Se a catalogo non trovi l'accessorio per bandiera che stavi cercando, contattaci.
+                </h2>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+
+
+          <!-- row start -->
+          <div data-anim-wrap class="row x-gap-48 y-gap-60 layout-pt-md">
+
+            <div class="col-lg-4 col-sm-6">
+              <div data-anim-child="slide-up delay-4" class="serviceCard -type-2">
+                <div class="serviceCard__content">
+                  <a href="./set/set-da-sala.php" title="Gallo Aldo Brescia Set da sala per bandiera in acciaio e alluminio in pezzo unico fino a 3 sedi"><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
+                    Set Economici da sala
+                  </h3></a>
+					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+                  <p class="serviceCard__text text-light mt-16">
+                    Set da sala per bandiera in acciaio e alluminio in pezzo unico fino a 3 sedi
+                  </p>
+
+                  <div class="serviceCard__navButton navButton -md mt-24">
+                    <a href="./set/set-da-sala.php" title="Gallo Aldo Brescia Set da sala per bandiera in acciaio e alluminio in pezzo unico fino a 3 sedi" class="navButton__item button -outline-white text-white">
+                      <i data-feather="arrow-right" class="icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div data-anim-child="slide-up delay-4" class="serviceCard -type-2">
+                <div class="serviceCard__content">
+                  <a href="./aste/index.php" title="Gallo Aldo Brescia Aste per bandiere da interno ed esterno di diverse lunghezze e diametri"><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
+                    Aste
+					  </h3></a>
+<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+                  <p class="serviceCard__text text-light mt-16">
+                    Aste per bandiere da interno ed esterno di diverse lunghezze e diametri
+                  </p>
+
+                  <div class="serviceCard__navButton navButton -md mt-24">
+                    <a href="./aste/index.php" title="Gallo Aldo Brescia Aste per bandiere da interno ed esterno di diverse lunghezze e diametri" class="navButton__item button -outline-white text-white">
+                      <i data-feather="arrow-right" class="icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div data-anim-child="slide-up delay-4" class="serviceCard -type-2">
+                <div class="serviceCard__content">
+                  <a href="./lance-ed-emblemi/index.php" title="Gallo Aldo Brescia aste per bandiere. Lance e gli emblemi per aste portabandiera in fusione d'ottone"><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
+                    Lance ed Emblemi
+					  </h3></a>
+					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+                  <p class="serviceCard__text text-light mt-16">
+                    Lance e gli emblemi per aste portabandiera in fusione d'ottone
+                  </p>
+
+                  <div class="serviceCard__navButton navButton -md mt-24">
+                    <a href="./lance-ed-emblemi/index.php" title="Gallo Aldo Brescia aste per bandiere. Lance e gli emblemi per aste portabandiera in fusione d'ottone" class="navButton__item button -outline-white text-white">
+                      <i data-feather="arrow-right" class="icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+                   <div class="col-lg-4 col-sm-6">
+              <div data-anim-child="slide-up delay-4" class="serviceCard -type-2">
+                <div class="serviceCard__content">
+                  <a href="./emblemi-regioni-italiane/index.php" title="Gallo Aldo Brescia aste per bandiere. Lance e gli emblemi per aste portabandiera in fusione d'ottone"><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
+                    Emblemi Regioni Italiane
+					  </h3></a>
+					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+                  <p class="serviceCard__text text-light mt-16">
+                    Gli emblemi per aste portabandiera per le bandiere delle regioni d'Italia
+                  </p>
+
+                  <div class="serviceCard__navButton navButton -md mt-24">
+                    <a href="./emblemi-regioni-italiane/index.php" title="Emblemi delle Regioni d'Italia" class="navButton__item button -outline-white text-white">
+                      <i data-feather="arrow-right" class="icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+			  
+			  <div class="col-lg-4 col-sm-6">
+              <div data-anim-child="slide-up delay-4" class="serviceCard -type-2">
+                <div class="serviceCard__content">
+                  <a href="./pomoli-e-terminali/index.php" title="Gallo Aldo Brescia Piantane, Pomoli di diverse forme, diversi diametri e materiali, prevalentemente in fusione di ottone" ><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
+                    Pomoli e Terminali
+					  </h3></a>
+					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+                  <p class="serviceCard__text text-light mt-16">
+                    Pomoli di diverse forme, diversi diametri e materiali, prevalentemente in fusione di ottone
+                  </p>
+
+                  <div class="serviceCard__navButton navButton -md mt-24">
+                    <a href="./pomoli-e-terminali/index.php" title="Gallo Aldo Brescia Piantane, Pomoli di diverse forme, diversi diametri e materiali, prevalentemente in fusione di ottone" class="navButton__item button -outline-white text-white">
+                      <i data-feather="arrow-right" class="icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+			  
+			  <div class="col-lg-4 col-sm-6">
+              <div data-anim-child="slide-up delay-4" class="serviceCard -type-2">
+                <div class="serviceCard__content">
+                  <a href="./basi-e-supporti/index.php" title="Gallo Aldo Brescia Basi e supporti da interno ed esterno per aste e bandiere. Diversi diametri fino a 5 sedi"><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
+                    Basi e Supporti
+                  </h3></a>
+					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+                  <p class="serviceCard__text text-light mt-16">
+                   Basi e supporti da interno ed esterno per aste e bandiere. Diversi diametri fino a 5 sedi
+                  </p>
+
+                  <div class="serviceCard__navButton navButton -md mt-24">
+                    <a href="./basi-e-supporti/index.php" title="Gallo Aldo Brescia Basi e supporti da interno ed esterno per aste e bandiere. Diversi diametri fino a 5 sedi" class="navButton__item button -outline-white text-white">
+                      <i data-feather="arrow-right" class="icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+			  
+			   <div class="col-lg-4 col-sm-6">
+              <div data-anim-child="slide-up delay-4" class="serviceCard -type-2">
+                <div class="serviceCard__content">
+                  <a href="./traverse/index.php" title="Gallo Aldo Brescia Traverse per labari e gonfaloni interamente in ottone con raccordi e anelli saldati al tubo"><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
+                    Traverse
+                  </h3></a>
+					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+                  <p class="serviceCard__text text-light mt-16">
+                    Traverse per labari e gonfaloni interamente in ottone con raccordi e anelli saldati al tubo
+                  </p>
+
+                  <div class="serviceCard__navButton navButton -md mt-24">
+                    <a href="./traverse/index.php" title="Gallo Aldo Brescia Traverse per labari e gonfaloni interamente in ottone con raccordi e anelli saldati al tubo" class="navButton__item button -outline-white text-white">
+                      <i data-feather="arrow-right" class="icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+			  
+			   <div class="col-lg-4 col-sm-6">
+              <div data-anim-child="slide-up delay-4" class="serviceCard -type-2">
+                <div class="serviceCard__content">
+                  <a href="./pennoni-e-accessori/index.php" title="Gallo Aldo Brescia Pennoni e pali per bandiere"><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
+                    Pennoni
+					  </h3></a>
+					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+                  <p class="serviceCard__text text-light mt-16">
+                   Pennoni in Alluminio Anodizzato sono composti dalla lega 60/63 anticorodal 
+                  </p>
+
+                  <div class="serviceCard__navButton navButton -md mt-24">
+                    <a href="./pennoni-e-accessori/index.php" title="Gallo Aldo Brescia Pennoni e pali per bandiere" class="navButton__item button -outline-white text-white">
+                      <i data-feather="arrow-right" class="icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+			  
+			   <div class="col-lg-4 col-sm-6">
+              <div data-anim-child="slide-up delay-4" class="serviceCard -type-2">
+                <div class="serviceCard__content">
+                   <a href="./bandiere-pubblicitarie/index.php" title="Gallo Aldo Brescia Strutture per bandiere pubblicitarie a vela e goccia di diverse misure."><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
+                    Bandiere Pubblicitarie
+					   </h3></a>
+					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+                  <p class="serviceCard__text text-light mt-16">
+                    Strutture per bandiere pubblicitarie a vela e goccia di diverse misure
+                  </p>
+
+                  <div class="serviceCard__navButton navButton -md mt-24">
+                    <a href="./bandiere-pubblicitarie/index.php" title="Gallo Aldo Brescia Strutture per bandiere pubblicitarie a vela e goccia di diverse misure." class="navButton__item button -outline-white text-white">
+                      <i data-feather="arrow-right" class="icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+			  
+			   
+			  
+			   <div class="col-lg-4 col-sm-6">
+              <div data-anim-child="slide-up delay-4" class="serviceCard -type-2">
+                <div class="serviceCard__content">
+                 <a href="./accessori/index.php" title="Gallo Aldo Brescia Accessori per bandiere"><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
+                    Accessori
+					 </h3></a>
+					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+                  <p class="serviceCard__text text-light mt-16">
+                    Accessori per supporti portabandiera, sistemi di issaggio, e molto altro
+                  </p>
+
+                  <div class="serviceCard__navButton navButton -md mt-24">
+                    <a href="./accessori/index.php" title="Gallo Aldo Brescia Accessori per bandiere" class="navButton__item button -outline-white text-white">
+                      <i data-feather="arrow-right" class="icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+			  
+			  
+			  
+			 
+
+          </div>
+          <!-- row end -->
+
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+
+
+  <!--LOAD FOOTER-->
+	<?php include ("../footer-lev2.html")?>
+		<!--END LOAD FOOTER-->
+
+
+    </main>
+
+  </div>
+  <!-- barba container end -->
+
+
+  <!-- JavaScript -->
+  <script src="../js/vendors.js"></script>
+  <script src="../js/main.js"></script>
+
+</body>
+
+</html>

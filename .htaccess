@@ -1,0 +1,87 @@
+############################################
+# CORE
+############################################
+RewriteEngine On
+
+
+############################################
+# FORCE HTTPS + WWW (ONE REDIRECT ONLY)
+############################################
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\.galloaldo\.com$ [NC]
+RewriteRule ^(.*)$ https://www.galloaldo.com/$1 [R=301,L]
+
+
+############################################
+# LEGACY REDIRECTS
+############################################
+Redirect 301 /gallery/BA-D1.jpg /
+Redirect 301 /images/Art-301-Base-riempibile-da-52-kg-con-asta-in-alluminio-anodizzato-diametro-50-32-h-5-mt-con-braccio-girevole-per-bandiere-verticali.jpg /
+
+
+############################################
+# CACHE & EXPIRES (CRITICAL FOR LIGHTHOUSE)
+############################################
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Images
+  ExpiresByType image/avif "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 6 months"
+  ExpiresByType image/png "access plus 6 months"
+  ExpiresByType image/svg+xml "access plus 1 year"
+
+  # Fonts
+  ExpiresByType font/woff2 "access plus 1 year"
+
+  # CSS & JS - 1 year (use query-string versioning for cache busting)
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/javascript "access plus 1 year"
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|woff2|woff|png|jpg|jpeg|webp|avif|svg)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+    Header append Vary "Accept-Encoding"
+  </FilesMatch>
+</IfModule>
+
+
+############################################
+# COMPRESSION (BROTLI + GZIP FALLBACK)
+############################################
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/css application/javascript application/json image/svg+xml font/woff2
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json image/svg+xml font/woff2
+</IfModule>
+
+
+############################################
+# SECURITY HEADERS (SAFE)
+############################################
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+
+############################################
+# PHP HANDLER (UPDATE VERSION IF AVAILABLE)
+############################################
+# Prefer PHP 8.2 if enabled in cPanel
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82___lsphp .php .php8 .phtml
+</IfModule>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php71” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php71___lsphp .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

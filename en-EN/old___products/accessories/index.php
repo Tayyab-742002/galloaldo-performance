@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-859280756"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-859280756');
+</script>
+
+
+
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="../../../css/vendors.css">
+  <link rel="stylesheet" href="../../../css/main.css">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="../../../img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../../../img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../../../img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../../../img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../../../img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../../../img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../../../img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../../../img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../../img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../../../img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../../../img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../../../img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../../../img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+    <title>Flagpole Parts and Accessories :: Flagpoles manufacturing and accessories made in Italy :: Gallo Aldo</title>
+   <meta name="description" content="Gallo Aldo is leader in Italy in the field of rods, flagpoles and accessories for flag in metal or fusion. To complete the wide range of flagpoles and supports for flags, Gallo Aldo offers a useful series of accessories to be applied to flag-holders, to hoisting systems, and more. ">	
+</head>
+
+
+<body class="preloader-visible" >
+
+
+  <!-- preloader start -->
+  <div class="preloader js-preloader">
+    <div class="preloader__bg"></div>
+
+    <div class="preloader__progress">
+      <div class="preloader__progress__inner"></div>
+    </div>
+  </div>
+  <!-- preloader end -->
+
+
+  <!-- cursor start -->
+  <div class="cursor js-cursor">
+    <div class="cursor__wrapper">
+      <div class="cursor__follower js-follower"></div>
+      <div class="cursor__label js-label"></div>
+      <div class="cursor__icon js-icon"></div>
+    </div>
+  </div>
+  <!-- cursor end -->
+
+
+  <!-- barba container start -->
+  <div class="barba-container" data-barba="container">
+
+    <!-- to-top-button start -->
+    <div data-cursor class="backButton js-backButton">
+      <span class="backButton__bg"></span>
+      <div class="backButton__icon__wrap">
+        <i class="backButton__button js-top-button" data-feather="arrow-up"></i>
+      </div>
+    </div>
+    <!-- to-top-button end -->
+
+
+    <main class="bg-dark-1">
+
+
+      <!-- header start -->
+      <header class="header -dark -sticky-dark js-header-dark js-header">
+      <!-- header__bar start -->
+        <div class="header__bar">
+         <div class="header__logo js-header-logo">
+            <a data-barba href="../../index.php">
+              <img class="header__logo__light js-lazy" data-srcset="../../../img/gallo-aldo-logo-wht.svg 1x, ../../../img/gallo-aldo-logo-wht.svg 2x" data-src="../../../img/gallo-aldo-logo-wht.svg" alt="Gallo Aldo is leader in Italy in the field of rods, flagpoles and accessories for flag in metal or fusion made in Italy Concesio Brescia">
+            </a>            <a data-barba href="../../">
+              <img class="header__logo__dark js-lazy"data-srcset="../../../img/gallo-aldo-logo-black.svg 1x, ../../../img/gallo-aldo-logo-black.svg 2x" data-src="../../../img/gallo-aldo-logo-black.svg" alt="Gallo Aldo is leader in Italy in the field of rods, flagpoles and accessories for flag in metal or fusion made in Italy Concesio Brescia">
+            </a>
+          </div>
+
+          <div class="menustyle header__menu js-header-menu">
+            <button type="button" class="nav-button-open js-nav-open">
+              <i class="icon" data-feather="menu"></i>
+            </button>
+			  <a href="https://www.galloaldo.com/index.php"><img src="https://www.galloaldo.com/flag/it-flag.svg" class="mw36"></a>  	
+          </div>
+        </div>
+        <!-- header__bar end -->
+
+
+        <!-- nav start -->
+        <nav class="nav js-nav">
+          <div class="nav__inner js-nav-inner">
+            <div class="nav__bg js-nav-bg"></div>
+
+            <div class="nav__container">
+              <div class="nav__header">
+                <button type="button" class="nav-button-back js-nav-back">
+                  <i class="icon" data-feather="arrow-left-circle"></i>
+                </button>
+
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                  <i class="icon" data-feather="x"></i>
+                </button>
+              </div>
+
+              <div class="nav__content">
+				 <!--LOAD NAV CONTENT-->
+                <?php include ("../../nav-lev3.html")?>
+				<!--END NAV CONTENT-->
+                <div class="nav__content__right">
+                   <div class="nav__info">
+					<!--LOAD NAV INFO-->
+					
+                <?php include ("../../nav-info-lev3.html")?>
+				<!--END NAV INFO-->
+				<!--SWITCH LANG-->
+					<div class="nav__info__item js-navInfo-item" style="margin-top:0 !important;">
+					   <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="../../../prodotti/accessori/index.php"><img src="../../../img/it-flag.svg" class="mw36"></a>    
+                      </div>
+					   </div>
+				<!--END SWTICH LANG-->		
+					</div>
+					
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- nav end -->
+      </header>
+      <!-- header end -->
+
+
+      <!-- section start -->
+      <section class="masthead -type-4 js-masthead-type-4">
+        <!-- container start -->
+        <div class="container-fluid px-0">
+          <!-- row start -->
+          <div class="row no-gutters align-items-center h-full">
+            <div class="col-lg-3 offset-lg-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1 sm:px-20 z-2">
+              <div class="masthead__content">
+                <div data-split="lines" data-split-page-reveal>
+                  <p class="masthead__subtitle uppercase text-sm tracking-md text-light mb-24 md:mb-16 js-subtitle">
+                    Parts and Accessories
+                  </p>
+                </div>
+
+                <div data-split="lines" data-split-page-reveal class="mr-minus-lg md:mr-0">
+                  <h1 class="masthead__title fw-700 text-white js-title">
+                   A wide range of accessories and spare parts
+                  </h1>
+                </div>
+
+                <div data-split="lines" data-split-page-reveal>
+                  <p class="masthead__text text-light mt-40 md:mt-20 js-text">
+                    A useful series of accessories to be applied to flag-holders, to hoisting systems, and more
+                  </p>
+                </div>
+
+                <div class="masthead__button overflow-hidden mt-48 md:mt-32">
+                  <a class="button -md -white text-black js-button" href="../../request-a-catalog.php">
+                 Request a Catalog
+                </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-5 offset-xl-1 col-lg-6 offset-lg-1 z-1">
+              <div data-parallax="0.7" class="masthead__img overflow-hidden h-100vh ml-minus-sm md:ml-0">
+                <div data-parallax-target class="bg-image js-lazy js-image" data-bg="../../../prodotti/accessori/img/accessori-ricambi-main-pic.jpg"></div>
+                <div class="masthead__img__cover js-image-cover"></div>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+
+        
+      </section>
+      <!-- section end -->
+
+
+      <!-- section start -->
+      <section class="layout-pt-xl layout-pb-lg">
+        <!-- container start -->
+        <div class="container">
+
+          <!-- row start -->
+          <div class="row">
+            <div class="col-xl-9 col-md-12">
+              <div class="sectionHeading -sm">
+                
+                <h2 class="sectionHeading__title fw-600 text-white">
+                  If you can't find the flag accessory you were looking for in our catalog, please contact us.
+                </h2>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+
+
+          <!-- row start -->
+          <div data-anim-wrap class="row x-gap-48 y-gap-60 layout-pt-md">
+
+            <div class="col-lg-4 col-sm-6">
+              <div data-anim-child="slide-up delay-4" class="serviceCard -type-2">
+                <div class="serviceCard__content">
+                  <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
+                    Parts and Accessories
+                  </h3>
+<p><img src="../../../img/italy_flag.svg" style="width: 200px"></p>
+                  <p class="serviceCard__text text-light mt-16">
+                    A wide range of accessories and spare parts. Base cover discs, ballasts and basic kits
+                  </p>
+
+                  <div class="serviceCard__navButton navButton -md mt-24">
+                    <a href="./flagpole-parts.php" title="Gallo Aldo Brescia A wide range of accessories and spare parts. Base cover discs, ballasts and basic kits" class="navButton__item button -outline-white text-white">
+                      <i data-feather="arrow-right" class="icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div data-anim-child="slide-up delay-4" class="serviceCard -type-2">
+                <div class="serviceCard__content">
+                  <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
+                    Bags and Belts
+                  </h3>
+<p><img src="../../../img/italy_flag.svg" style="width: 200px"></p>
+                  <p class="serviceCard__text text-light mt-16">
+                    Different flag bags, banners,banner holder bags and a stand bag sizes.
+                  </p>
+
+                  <div class="serviceCard__navButton navButton -md mt-24">
+                    <a href="./flagpole-bags.php" title="Gallo Aldo Brescia Different flag bags, banners,banner holder bags and a stand bag sizes." class="navButton__item button -outline-white text-white">
+                      <i data-feather="arrow-right" class="icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div data-anim-child="slide-up delay-4" class="serviceCard -type-2">
+                <div class="serviceCard__content">
+                  <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
+                    Pennant
+                  </h3>
+					<p><img src="../../../img/italy_flag.svg" style="width: 200px"></p>
+                  <p class="serviceCard__text text-light mt-16">
+                    Accessories for pennants. Crossbars of different sizes and terminal studs
+                  </p>
+
+                  <div class="serviceCard__navButton navButton -md mt-24">
+                    <a href="./pennant-accessories.php" title="Gallo Aldo Brescia Accessories for pennants. Crossbars of different sizes and terminal studs" class="navButton__item button -outline-white text-white">
+                      <i data-feather="arrow-right" class="icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+			  
+			  <div class="col-lg-4 col-sm-6">
+              <div data-anim-child="slide-up delay-4" class="serviceCard -type-2">
+                <div class="serviceCard__content">
+                  <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
+                    Delimitation Columns
+                  </h3>
+					<p><img src="../../../img/italy_flag.svg" style="width: 200px"></p>
+                  <p class="serviceCard__text text-light mt-16">
+                    Floor stands, ropes and accessories. Floor stands with a customizable and interchangeable sign
+                  </p>
+
+                  <div class="serviceCard__navButton navButton -md mt-24">
+                    <a href="./delimitation-column.php" title="Gallo Aldo Brescia Floor stands, ropes and accessories. Floor stands with a customizable and interchangeable sign to be placed at the entrance of rooms and meeting rooms" class="navButton__item button -outline-white text-white">
+                      <i data-feather="arrow-right" class="icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+			  
+			 
+
+          </div>
+          <!-- row end -->
+
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+
+
+          <!--LOAD FOOTER-->
+	<?php include ("../../footer-lev3.html")?>
+		<!--END LOAD FOOTER-->
+
+
+    </main>
+
+  </div>
+  <!-- barba container end -->
+
+
+  <!-- JavaScript -->
+  <!-- JavaScript -->
+  <script src="../../../js/vendors.js"></script>
+  <script src="../../../js/main.js"></script>
+
+</body>
+
+</html>

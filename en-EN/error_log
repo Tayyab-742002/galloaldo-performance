@@ -1,0 +1,48 @@
+[06-Jan-2023 01:51:56 UTC] PHP Warning:  Undefined array key "ragionesociale" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 8
+[06-Jan-2023 01:51:56 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 8
+[06-Jan-2023 01:51:56 UTC] PHP Warning:  Undefined array key "vat" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 9
+[06-Jan-2023 01:51:56 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 9
+[06-Jan-2023 01:51:56 UTC] PHP Warning:  Undefined array key "cf" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 10
+[06-Jan-2023 01:51:56 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 10
+[06-Jan-2023 01:51:56 UTC] PHP Warning:  Undefined array key "sdi" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 11
+[06-Jan-2023 01:51:56 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 11
+[06-Jan-2023 01:51:56 UTC] PHP Warning:  Undefined array key "indirizzo" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 12
+[06-Jan-2023 01:51:56 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 12
+[06-Jan-2023 01:51:56 UTC] PHP Warning:  Undefined array key "localita" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 13
+[06-Jan-2023 01:51:56 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 13
+[06-Jan-2023 01:51:56 UTC] PHP Warning:  Undefined array key "provincia" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 14
+[06-Jan-2023 01:51:56 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 14
+[06-Jan-2023 01:51:56 UTC] PHP Warning:  Undefined array key "cap" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 15
+[06-Jan-2023 01:51:56 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 15
+[06-Jan-2023 01:51:56 UTC] PHP Warning:  Undefined array key "phone" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 16
+[06-Jan-2023 01:51:56 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 16
+[06-Jan-2023 01:51:56 UTC] PHP Warning:  Undefined array key "email" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 17
+[06-Jan-2023 01:51:56 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 17
+[06-Jan-2023 01:51:56 UTC] PHP Warning:  Undefined array key "message" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 18
+[06-Jan-2023 01:51:56 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 18
+[06-Jan-2023 01:51:56 UTC] PHP Warning:  Undefined array key "gdprlift" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 19
+[06-Jan-2023 01:51:56 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 19
+[06-Jan-2023 19:15:00 UTC] PHP Warning:  Undefined array key "ragionesociale" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 8
+[06-Jan-2023 19:15:00 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 8
+[06-Jan-2023 19:15:00 UTC] PHP Warning:  Undefined array key "vat" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 9
+[06-Jan-2023 19:15:00 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 9
+[06-Jan-2023 19:15:00 UTC] PHP Warning:  Undefined array key "cf" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 10
+[06-Jan-2023 19:15:00 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 10
+[06-Jan-2023 19:15:00 UTC] PHP Warning:  Undefined array key "sdi" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 11
+[06-Jan-2023 19:15:00 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 11
+[06-Jan-2023 19:15:00 UTC] PHP Warning:  Undefined array key "indirizzo" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 12
+[06-Jan-2023 19:15:00 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 12
+[06-Jan-2023 19:15:00 UTC] PHP Warning:  Undefined array key "localita" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 13
+[06-Jan-2023 19:15:00 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 13
+[06-Jan-2023 19:15:00 UTC] PHP Warning:  Undefined array key "provincia" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 14
+[06-Jan-2023 19:15:00 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 14
+[06-Jan-2023 19:15:00 UTC] PHP Warning:  Undefined array key "cap" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 15
+[06-Jan-2023 19:15:00 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 15
+[06-Jan-2023 19:15:00 UTC] PHP Warning:  Undefined array key "phone" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 16
+[06-Jan-2023 19:15:00 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 16
+[06-Jan-2023 19:15:00 UTC] PHP Warning:  Undefined array key "email" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 17
+[06-Jan-2023 19:15:00 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 17
+[06-Jan-2023 19:15:00 UTC] PHP Warning:  Undefined array key "message" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 18
+[06-Jan-2023 19:15:00 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 18
+[06-Jan-2023 19:15:00 UTC] PHP Warning:  Undefined array key "gdprlift" in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 19
+[06-Jan-2023 19:15:00 UTC] PHP Deprecated:  stripslashes(): Passing null to parameter #1 ($string) of type string is deprecated in /home/adzdojwn/public_html/en-EN/catalog-script.php on line 19

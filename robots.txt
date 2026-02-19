@@ -1,0 +1,7 @@
+# robots.txt for https://www.galloaldo.com/
+
+User-agent: *
+Disallow: /wp-admin/*
+
+Sitemap: https://www.galloaldo.com/sitemap.xml
+crawl-delay: 1

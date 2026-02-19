@@ -1,0 +1,10 @@
+[05-Jan-2023 21:47:25 UTC] PHP Deprecated:  Optional parameter $baseurl declared before required parameter $count is implicitly treated as a required parameter in /home/adzdojwn/public_html/res/x5engine.php on line 154
+[05-Jan-2023 21:47:26 UTC] PHP Warning:  Undefined array key "HTTP_REFERER" in /home/adzdojwn/public_html/res/x5engine.php on line 9495
+[05-Jan-2023 23:46:37 UTC] PHP Deprecated:  Optional parameter $baseurl declared before required parameter $count is implicitly treated as a required parameter in /home/adzdojwn/public_html/res/x5engine.php on line 154
+[05-Jan-2023 23:46:38 UTC] PHP Warning:  Undefined array key "HTTP_REFERER" in /home/adzdojwn/public_html/res/x5engine.php on line 9495
+[06-Jan-2023 05:54:51 UTC] PHP Deprecated:  Optional parameter $baseurl declared before required parameter $count is implicitly treated as a required parameter in /home/adzdojwn/public_html/res/x5engine.php on line 154
+[06-Jan-2023 05:54:51 UTC] PHP Warning:  Undefined array key "HTTP_REFERER" in /home/adzdojwn/public_html/res/x5engine.php on line 9495
+[06-Jan-2023 09:44:59 UTC] PHP Deprecated:  Optional parameter $baseurl declared before required parameter $count is implicitly treated as a required parameter in /home/adzdojwn/public_html/res/x5engine.php on line 154
+[06-Jan-2023 09:45:00 UTC] PHP Warning:  Undefined array key "HTTP_REFERER" in /home/adzdojwn/public_html/res/x5engine.php on line 9495
+[20-Mar-2023 05:24:00 UTC] PHP Deprecated:  Optional parameter $baseurl declared before required parameter $count is implicitly treated as a required parameter in /home/adzdojwn/public_html/res/x5engine.php on line 154
+[20-Mar-2023 05:24:00 UTC] PHP Warning:  Undefined array key "HTTP_REFERER" in /home/adzdojwn/public_html/res/x5engine.php on line 9495

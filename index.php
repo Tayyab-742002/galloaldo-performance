@@ -576,7 +576,7 @@ button:hover, .btn:hover {
   <img src="/desk/certificazione.webp" 
        alt="certificazione aste per bandiere" 
        title="certificazione aste per bandiere" 
-       class="responsive-img">
+       class="responsive-img" width="800" height="400">
 </picture>
 </div>
          <div ><p style="text-align:center;"> <font color="#FFFFFF"> <strong>Certificazione ISO 9001:2015</strong><br>
@@ -1018,7 +1018,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <img src="/desk/aste-per-bandiere.webp" 
        alt="aste per bandiere" 
        title="aste per bandiere" 
-       class="responsive-img">
+       class="responsive-img" width="800" height="400"> 
 </picture><br>
                   Che tu sia alla ricerca di <em>asta bandiere</em>, <em>asta per bandiera</em>, <em>aste bandiere</em>, <em>asta per bandiera da esterno</em>, <em>aste per bandiere esterno</em> oppure se ti stai domandando <strong>dove comprare aste per bandiere</strong>, beh qui da noi troverai ciò che cerchi. Richiedi subito il <a href="https://www.galloaldo.com/richiedi-catalogo.php" title="catalogo aste per bandiere">nostro vasto catalogo</a>. <br>
 <
@@ -1163,7 +1163,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <img src="img/emblemi-accessori-aste-bandiere-desktop.webp" 
        alt="Gallo Aldo è aste e pennoni per bandiere e accessori per bandiere" 
        title="Gallo Aldo è aste e pennoni per bandiere e accessori per bandiere"
-       style="width:100%; max-width:80%; height:auto;">
+       style="width:100%; max-width:80%; height:auto;" width="800" height="400">
 </picture></p>
 			  </div>
 			</div>

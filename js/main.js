@@ -1334,8 +1334,8 @@ const Cursor = (function() {
 
     clientX = -100;
     clientY = -100;
-    cursorWidth = cursor.offsetWidth / 2;
-    cursorHeight = cursor.offsetHeight / 2;
+    cursorWidth = 0;
+    cursorHeight = 0;
     cursorTriggers;
     state = false;
 
@@ -1344,8 +1344,21 @@ const Cursor = (function() {
   function init() {
 
     if (!cursor) return;
+    // Touch devices and narrow viewports have no pointer cursor — skip the entire
+    // setup (mousemove listener, rAF rendering loop, event delegation).
+    const bp = App.config.cursorFollower.disableBreakpoint
+      ? parseInt(App.config.cursorFollower.disableBreakpoint)
+      : 992;
+    const isTouch = navigator.maxTouchPoints > 0 || 'ontouchstart' in window;
+    if (isTouch || window.innerWidth <= bp) return;
 
     variables();
+    // Defer layout reads to after first paint — avoids forced reflow caused by
+    // Headroom writing classes to the header just before this runs.
+    requestAnimationFrame(function() {
+      cursorWidth = cursor.offsetWidth / 2;
+      cursorHeight = cursor.offsetHeight / 2;
+    });
     state = true;
     cursor.classList.add('is-enabled');
 
@@ -2321,6 +2334,11 @@ function lazyLoading() {
 ---------------------------------------------------*/
 
 function parallaxInit() {
+  // Jarallax runs a scroll listener + position reads on every frame.
+  // On mobile the effect is invisible (backgrounds fill via CSS), so skip it
+  // entirely to save script evaluation, scroll listener cost, and reflows.
+  if (window.innerWidth < 768) return;
+
   if (!document.querySelector('[data-parallax]')) {
     return;
   }

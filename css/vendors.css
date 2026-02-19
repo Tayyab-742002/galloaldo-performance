@@ -14,7 +14,7 @@
     url('../fonts/icomoon-ipuuib.svg#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: optional;
 }
 
 [class^="icon-"], [class*=" icon-"] {

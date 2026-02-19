@@ -51,6 +51,8 @@
     .bg-image{background-size:cover;background-repeat:no-repeat;background-position:center center}
     .bg-black{background-color:#000}
     .sliderMain.-type-1{position:relative;overflow:hidden;width:100%;height:100vh}
+    /* Prevent CLS for images that have width/height attrs but no explicit height: auto rule */
+    img.responsive-img{height:auto}
   </style>
 
   <!-- Vendor CSS: kept synchronous — Bootstrap grid, Swiper, icon fonts.
@@ -69,13 +71,15 @@
   <noscript><link rel="stylesheet" href="/css/sm.css"></noscript>
 
   <link rel="preload" href="/wh/venom-button.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/wh/venom-button.css"></noscript>
+<noscript><link rel="stylesheet" href="/wh/venom-button.css"></noscript>
 
   <!-- Google Fonts: fully non-blocking via media="print" trick.
-       font-display:swap is added in vendors.css so icons show immediately. -->
+       display=optional: no font-swap after first paint → eliminates CLS from
+       late-arriving woff2 files. On first uncached visit the system font is used;
+       on repeat visits the font is served from cache within the optional block window. -->
   <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=optional"
         media="print" onload="this.media='all'">
   <noscript>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=optional">
   </noscript>

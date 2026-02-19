@@ -55,7 +55,9 @@
 
   <!-- Vendor CSS: kept synchronous — Bootstrap grid, Swiper, icon fonts.
        Only 78 KB; sets the structural layout needed immediately.      -->
-  <link rel="stylesheet" href="/css/vendors.css">
+  <!-- <link rel="stylesheet" href="/css/vendors.css"> -->
+   <link rel="preload" href="/css/vendors.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+   <noscript><link rel="stylesheet" href="/css/vendors.css"></noscript>
 
   <!-- Main CSS: loaded ASYNC — the preloader hides all content while JS is
        loading, so there is zero FOUC risk. 235 KB saved from render-blocking. -->

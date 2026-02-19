@@ -372,10 +372,10 @@ button:hover, .btn:hover {
           </div>
 
           <div class="menustyle header__menu js-header-menu">
-            <button type="button" class="nav-button-open js-nav-open">
+            <button type="button" class="nav-button-open js-nav-open" aria-label="Open navigation menu">
               <i class="icon" data-feather="menu"></i>
             </button>
-			  <a href="https://www.galloaldo.com/en-EN/"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>  	
+			  <a href="https://www.galloaldo.com/en-EN/" aria-label="English"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" width="36" height="24" alt="English"></a>  	
           </div>
 		
         </div>
@@ -389,11 +389,11 @@ button:hover, .btn:hover {
 
             <div class="nav__container">
               <div class="nav__header">
-                <button type="button" class="nav-button-back js-nav-back">
+                <button type="button" class="nav-button-back js-nav-back" aria-label="Go back to previous menu">
                   <i class="icon" data-feather="arrow-left-circle"></i>
                 </button>
 
-                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none" aria-label="Close navigation menu">
                   <i class="icon" data-feather="x"></i>
                 </button>
               </div>
@@ -411,7 +411,7 @@ button:hover, .btn:hover {
 				<!--SWITCH LANG-->
 					<div class="nav__info__item js-navInfo-item" style="margin-top:0 !important;">
 					   <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="./en-EN/"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>    
+                        <a href="./en-EN/" aria-label="English"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" width="36" height="24" alt="English"></a>    
                       </div>
 					   </div>
 				<!--END SWTICH LANG-->	
@@ -439,7 +439,7 @@ button:hover, .btn:hover {
 
                <div 
     class="bg-image" 
-    style="background-image: url('img/home-pic/aldo-gallo-brescia-aste-pennoni-accessori-per-bandiere-pic1.webp');"
+    style="background-image: url('/img/home-pic/aldo-gallo-brescia-aste-pennoni-accessori-per-bandiere-pic1.webp');"
     data-swiper-parallax="750"
     data-swiper-parallax-opacity="0">
 </div>
@@ -462,7 +462,7 @@ button:hover, .btn:hover {
                       <div class="js-title">
                         <h1 class="sliderMain__title fw-800 text-white">
                           Aste per bandiere, pali, pennoni e accessori per bandiere
-							 <p><img src="img/italy_flag.svg" style="width: 200px"></p>
+							 <p><img src="img/italy_flag.svg" style="width: 200px" width="200" height="133" alt="Italian Flag"></p>
                         </h1>
 						 
                       </div>
@@ -508,7 +508,7 @@ button:hover, .btn:hover {
                       <div class="js-title">
                         <h2 class="sliderMain__title fw-800 text-white">
                          Scegli le aste per bandiere, i pali, i pennoni e gli accessori prodotti da Gallo Aldo, azienda leader nel mondo delle bandiere
-							 <p><img src="img/italy_flag.svg" style="width: 200px"></p>
+							 <p><img src="img/italy_flag.svg" style="width: 200px" width="200" height="133" alt="Italian Flag"></p>
                         </h2>
 						 
                       </div>
@@ -532,8 +532,8 @@ button:hover, .btn:hover {
         <!-- ui-element start -->
         <div class="ui-element -bottom-left js-ui">
           <div class="ui-element__social text-white js-bottom-left-links">
-            <a href="https://www.facebook.com/galloasteperbandiere" target="_blank"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.instagram.com/gallo_aldo_srl/?hl=it" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/galloasteperbandiere" target="_blank" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/gallo_aldo_srl/?hl=it" target="_blank" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
           </div>
         </div>
         <!-- ui-element end -->
@@ -617,7 +617,7 @@ Certifica del sistema di controllo applicato all'intero ciclo produttivo e di un
           <div class="portfolioCard__img ratio ratio-2:3 swiper-lazy"
                data-background="desk/aldo-gallo-accessori-per-bandiere-brescia-pic1.webp"
                data-background-mobile="mob/aldo-gallo-accessori-per-bandiere-brescia-pic1.webp">
-            <a data-gallery="gallery1" class="glightbox" href="desk/aldo-gallo-accessori-per-bandiere-brescia-pic1.webp">
+            <a data-gallery="gallery1" class="glightbox"  href="desk/aldo-gallo-accessori-per-bandiere-brescia-pic1.webp" aria-label="Gallo Aldo, accessori per bandiere, Brescia">
               <img src="desk/aldo-gallo-accessori-per-bandiere-brescia-pic1.webp" alt="Portfolio Gallo Aldo Pic 1" class="d-none">
             </a>
           </div>
@@ -630,7 +630,7 @@ Certifica del sistema di controllo applicato all'intero ciclo produttivo e di un
           <div class="portfolioCard__img ratio ratio-2:3 swiper-lazy"
                data-background="desk/aldo-gallo-accessori-per-bandiere-brescia-pic2.webp"
                data-background-mobile="mob/aldo-gallo-accessori-per-bandiere-brescia-pic2.webp">
-            <a data-gallery="gallery1" class="glightbox" href="desk/aldo-gallo-accessori-per-bandiere-brescia-pic2.webp">
+            <a data-gallery="gallery1" class="glightbox" href="desk/aldo-gallo-accessori-per-bandiere-brescia-pic2.webp" aria-label="Gallo Aldo, accessori per bandiere, Brescia">
               <img src="desk/aldo-gallo-accessori-per-bandiere-brescia-pic2.webp" alt="Portfolio Gallo Aldo Pic 2" class="d-none">
             </a>
           </div>
@@ -643,7 +643,7 @@ Certifica del sistema di controllo applicato all'intero ciclo produttivo e di un
           <div class="portfolioCard__img ratio ratio-2:3 swiper-lazy"
                data-background="desk/aldo-gallo-accessori-per-bandiere-brescia-pic3.webp"
                data-background-mobile="mob/aldo-gallo-accessori-per-bandiere-brescia-pic3.webp">
-            <a data-gallery="gallery1" class="glightbox" href="desk/aldo-gallo-accessori-per-bandiere-brescia-pic3.webp">
+            <a data-gallery="gallery1" class="glightbox" href="desk/aldo-gallo-accessori-per-bandiere-brescia-pic3.webp" aria-label="Gallo Aldo, accessori per bandiere, Brescia">
               <img src="desk/aldo-gallo-accessori-per-bandiere-brescia-pic3.webp" alt="Portfolio Gallo Aldo Pic 3" class="d-none">
             </a>
           </div>
@@ -656,7 +656,7 @@ Certifica del sistema di controllo applicato all'intero ciclo produttivo e di un
           <div class="portfolioCard__img ratio ratio-2:3 swiper-lazy"
                data-background="desk/aldo-gallo-accessori-per-bandiere-brescia-pic4.webp"
                data-background-mobile="mob/aldo-gallo-accessori-per-bandiere-brescia-pic4.webp">
-            <a data-gallery="gallery1" class="glightbox" href="desk/aldo-gallo-accessori-per-bandiere-brescia-pic4.webp">
+            <a data-gallery="gallery1" class="glightbox" href="desk/aldo-gallo-accessori-per-bandiere-brescia-pic4.webp" aria-label="Gallo Aldo, accessori per bandiere, Brescia">
               <img src="desk/aldo-gallo-accessori-per-bandiere-brescia-pic4.webp" alt="Portfolio Gallo Aldo Pic 4" class="d-none">
             </a>
           </div>
@@ -669,7 +669,7 @@ Certifica del sistema di controllo applicato all'intero ciclo produttivo e di un
           <div class="portfolioCard__img ratio ratio-2:3 swiper-lazy"
                data-background="desk/aldo-gallo-accessori-per-bandiere-brescia-pic5.webp"
                data-background-mobile="mob/aldo-gallo-accessori-per-bandiere-brescia-pic5.webp">
-            <a data-gallery="gallery1" class="glightbox" href="desk/aldo-gallo-accessori-per-bandiere-brescia-pic5.webp">
+            <a data-gallery="gallery1" class="glightbox" href="desk/aldo-gallo-accessori-per-bandiere-brescia-pic5.webp" aria-label="Gallo Aldo, accessori per bandiere, Brescia">
               <img src="desk/aldo-gallo-accessori-per-bandiere-brescia-pic5.webp" alt="Portfolio Gallo Aldo Pic 5" class="d-none">
             </a>
           </div>
@@ -682,7 +682,7 @@ Certifica del sistema di controllo applicato all'intero ciclo produttivo e di un
           <div class="portfolioCard__img ratio ratio-2:3 swiper-lazy"
                data-background="desk/aldo-gallo-accessori-per-bandiere-brescia-pic6.webp"
                data-background-mobile="mob/aldo-gallo-accessori-per-bandiere-brescia-pic6.webp">
-            <a data-gallery="gallery1" class="glightbox" href="desk/aldo-gallo-accessori-per-bandiere-brescia-pic6.webp">
+            <a data-gallery="gallery1" class="glightbox" href="desk/aldo-gallo-accessori-per-bandiere-brescia-pic6.webp"  aria-label="Gallo Aldo, accessori per bandiere, Brescia">
               <img src="desk/aldo-gallo-accessori-per-bandiere-brescia-pic6.webp" alt="Portfolio Gallo Aldo Pic 6" class="d-none">
             </a>
           </div>
@@ -695,7 +695,7 @@ Certifica del sistema di controllo applicato all'intero ciclo produttivo e di un
           <div class="portfolioCard__img ratio ratio-2:3 swiper-lazy"
                data-background="desk/aldo-gallo-accessori-per-bandiere-brescia-pic7.webp"
                data-background-mobile="mob/aldo-gallo-accessori-per-bandiere-brescia-pic7.webp">
-            <a data-gallery="gallery1" class="glightbox" href="desk/aldo-gallo-accessori-per-bandiere-brescia-pic7.webp">
+            <a data-gallery="gallery1" class="glightbox" href="desk/aldo-gallo-accessori-per-bandiere-brescia-pic7.webp" aria-label="Gallo Aldo, accessori per bandiere, Brescia">
               <img src="desk/aldo-gallo-accessori-per-bandiere-brescia-pic7.webp" alt="Portfolio Gallo Aldo Pic 7" class="d-none">
             </a>
           </div>

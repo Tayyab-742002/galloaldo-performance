@@ -7,9 +7,10 @@ RewriteEngine On
 ############################################
 # FORCE HTTPS + WWW (ONE REDIRECT ONLY)
 ############################################
-RewriteCond %{HTTPS} off [OR]
-RewriteCond %{HTTP_HOST} !^www\.galloaldo\.com$ [NC]
-RewriteRule ^(.*)$ https://www.galloaldo.com/$1 [R=301,L]
+
+#RewriteCond %{HTTPS} off [OR]
+#RewriteCond %{HTTP_HOST} !^www\.galloaldo\.com$ [NC]
+#RewriteRule ^(.*)$ https://www.galloaldo.com/$1 [R=301,L]
 
 
 ############################################

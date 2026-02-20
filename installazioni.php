@@ -40,6 +40,10 @@
   <title>Installazioni aste e pennoni per bandiere in tutta Itali.</title>
   <meta name="description" content="Gallo Aldo è un produttore italiano di aste, pennoni e accessori per bandiere. L'azienda offre servizi di installazione e noleggio. Richiedi un preventivo. ">	
 	<?php include ("./headscript.html")?>
+  <!-- Preload LCP images: all 3 images in the first row are above the fold on desktop -->
+  <link rel="preload" as="image" fetchpriority="high" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic13.jpg">
+  <link rel="preload" as="image" fetchpriority="high" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic14.jpg">
+  <link rel="preload" as="image" fetchpriority="high" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic15.jpg">
 </head>
 
 <body class="preloader-visible" >
@@ -89,17 +93,17 @@
       <header class="header -light -sticky-light js-header">
         <!-- header__bar start -->
         <div class="header__bar">
-          <div class="header__logo js-header-logo">            <a data-barba href="./"><img class="header__logo__light js-lazy" data-srcset="./img/gallo-aldo-srl-logo.png 1x, ./img/gallo-aldo-srl-logo.png 2x" data-src="./img/gallo-aldo-srl-logo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
-            </a>            <a data-barba href="./">
+          <div class="header__logo js-header-logo">            <a data-barba href="./" aria-label="Home"><img class="header__logo__light js-lazy" data-srcset="./img/gallo-aldo-srl-logo.png 1x, ./img/gallo-aldo-srl-logo.png 2x" data-src="./img/gallo-aldo-srl-logo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
+            </a>            <a data-barba href="./" aria-label="Home">
               <img class="header__logo__dark js-lazy"data-srcset="./img/logo-white-gallo-aldo.png 1x, ./img/logo-white-gallo-aldo.png 2x" data-src="./img/logo-white-gallo-aldo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
             </a>
           </div>
 
           <div class="menustyle header__menu js-header-menu">
-            <button type="button" class="nav-button-open js-nav-open">
+            <button type="button" class="nav-button-open js-nav-open" aria-label="Apri menu di navigazione">
               <i class="icon" data-feather="menu"></i>
             </button>
-			  <a href="https://www.galloaldo.com/en-EN/"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>  	
+			  <a href="https://www.galloaldo.com/en-EN/" aria-label="Switch to English"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="Switch to English"></a>  	
           </div>
         </div>
         <!-- header__bar end -->
@@ -112,11 +116,11 @@
 
             <div class="nav__container">
               <div class="nav__header">
-                <button type="button" class="nav-button-back js-nav-back">
+                <button type="button" class="nav-button-back js-nav-back" aria-label="Indietro">
                   <i class="icon" data-feather="arrow-left-circle"></i>
                 </button>
 
-                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none" aria-label="Chiudi menu di navigazione">
                   <i class="icon" data-feather="x"></i>
                 </button>
               </div>
@@ -134,7 +138,7 @@
 				<!--SWITCH LANG-->
 					<div class="nav__info__item js-navInfo-item" style="margin-top:0 !important;">
 					   <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="./en-EN/installations.php"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>    
+                        <a href="./en-EN/installations.php" aria-label="Switch to English"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="Switch to English"></a>    
                       </div>
 					   </div>
 				<!--END SWTICH LANG-->	
@@ -177,10 +181,10 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
         <div class="fancy-grid -col-3 -container">
 
           <div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic13.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic13.jpg" aria-label="Visualizza immagine installazione">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
-                  <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic13.jpg"></div>
+                  <div class="ratio ratio-3:4 bg-image" style="background-image:url('./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic13.jpg')"></div>
                 </div>
               </div>
 
@@ -189,10 +193,10 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic14.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic14.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
-                  <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic14.jpg"></div>
+                  <div class="ratio ratio-3:4 bg-image" style="background-image:url('./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic14.jpg')"></div>
                 </div>
               </div>
 
@@ -201,10 +205,10 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic15.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic15.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
-                  <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic15.jpg"></div>
+                  <div class="ratio ratio-3:4 bg-image" style="background-image:url('./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic15.jpg')"></div>
                 </div>
               </div>
 
@@ -214,7 +218,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
 			
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic16.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic16.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic16.jpg"></div>
@@ -227,7 +231,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
 			
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic17.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic17.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic17.jpg"></div>
@@ -239,7 +243,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic18.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic18.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic18.jpg"></div>
@@ -251,7 +255,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic19.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic19.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic19.jpg"></div>
@@ -263,7 +267,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic20.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic20.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic20.jpg"></div>
@@ -275,7 +279,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic21.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic21.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic21.jpg"></div>
@@ -287,7 +291,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic22.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic22.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic22.jpg"></div>
@@ -300,7 +304,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
 			
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic23.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic23.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic23.jpg"></div>
@@ -312,7 +316,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic24.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic24.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic24.jpg"></div>
@@ -324,7 +328,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic25.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic25.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic25.jpg"></div>
@@ -337,7 +341,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
 			
 
           <div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic0.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic0.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic0.jpg"></div>
@@ -348,7 +352,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic0b.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic0b.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic0b.jpg"></div>
@@ -359,7 +363,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic1.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic1.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere ">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic1.jpg"></div>
@@ -370,7 +374,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic2.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic2.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic2.jpg"></div>
@@ -381,7 +385,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic3.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic3.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic3.jpg"></div>
@@ -392,7 +396,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic3b.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic3b.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic3b.jpg"></div>
@@ -403,7 +407,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic3c.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic3c.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic3c.jpg"></div>
@@ -414,7 +418,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic4.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic4.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic4.jpg"></div>
@@ -425,7 +429,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic5.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic5.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic5.jpg"></div>
@@ -436,7 +440,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic6.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic6.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic6.jpg"></div>
@@ -447,7 +451,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic7.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic7.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic7.jpg"></div>
@@ -458,7 +462,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic8.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic8.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic8.jpg"></div>
@@ -469,7 +473,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic9.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic9.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic9.jpg"></div>
@@ -480,7 +484,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic10.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic10.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic10.jpg"></div>
@@ -491,7 +495,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic11.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic11.jpg" aria-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic11.jpg"></div>
@@ -502,7 +506,7 @@ e la posa dello stesso, tramite una squadra di professionisti. In questa raccolt
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic12.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic12.jpg" arial-label="Gallo Aldo installazione aste e accessori per bandiere">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-3:4 bg-image js-lazy" data-bg="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic12.jpg"></div>

@@ -18,9 +18,7 @@
   <meta charset="UTF-8">
   <?php include_once $_SERVER['DOCUMENT_ROOT'].'/head-perf.php'; ?>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="./validate/jquery.min.js"></script>
-<script src="./validate/jquery.validate.min.js"></script>
-	 <style>label.error {
+<style>label.error {
     color: red;
     font-size: 1rem;
     display: block;
@@ -112,7 +110,7 @@ input.error {
             <button type="button" class="nav-button-open js-nav-open">
               <i class="icon" data-feather="menu"></i>
             </button>
-			  <a href="https://www.galloaldo.com/en-EN/"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>  	
+			  <a href="https://www.galloaldo.com/en-EN/"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="English version"></a>  	
           </div>
         </div>
         <!-- header__bar end -->
@@ -147,7 +145,7 @@ input.error {
 				<!--SWITCH LANG-->
 					<div class="nav__info__item js-navInfo-item" style="margin-top:0 !important;">
 					   <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="./en-EN/contact.php"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>    
+                        <a href="./en-EN/contact.php"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="English version"></a>    
                       </div>
 					   </div>
 				<!--END SWTICH LANG-->	
@@ -386,7 +384,8 @@ Ufficio (Whatsapp Chat)</a>
                   </div>
 
                  <div class="col-12">
-                    
+          
+            <label for="gdprlift"></label>
 					 <input type="checkbox" name="gdprlift" id="gdprlift" required class="css-checkbox" value="si" /><label>* Autorizzo il trattamento dei miei dati personali, ai sensi del D.lgs. 196 del 30 giugno 2003. <a href="./privacy-policy.php">Privacy Policy</a> </label>
 					
                   </div>
@@ -418,10 +417,12 @@ Ufficio (Whatsapp Chat)</a>
 
 
   <!-- JavaScript -->
-  <script src="js/vendors.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/vendors.js" defer></script>
+  <script src="js/main.js" defer></script>
+<script src="./validate/jquery.min.js" defer></script>
+<script src="./validate/jquery.validate.min.js" defer></script>
 	<script>
-	$(document).ready(function() {
+	document.addEventListener('DOMContentLoaded', function() {
 $("#formcontatto").validate();
 });
 	</script>

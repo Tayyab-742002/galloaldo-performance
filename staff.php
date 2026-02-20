@@ -89,17 +89,17 @@
       <header class="header -light -sticky-light js-header">
         <!-- header__bar start -->
         <div class="header__bar">
-          <div class="header__logo js-header-logo">            <a data-barba href="./"><img class="header__logo__light js-lazy" data-srcset="./img/gallo-aldo-srl-logo.png 1x, ./img/gallo-aldo-srl-logo.png 2x" data-src="./img/gallo-aldo-srl-logo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
+          <div class="header__logo js-header-logo">            <a data-barba href="./" aria-label="Home"><img class="header__logo__light js-lazy" data-srcset="./img/gallo-aldo-srl-logo.png 1x, ./img/gallo-aldo-srl-logo.png 2x" data-src="./img/gallo-aldo-srl-logo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
             </a>            <a data-barba href="./">
-              <img class="header__logo__dark js-lazy"data-srcset="./img/logo-white-gallo-aldo.png 1x, ./img/logo-white-gallo-aldo.png 2x" data-src="./img/logo-white-gallo-aldo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
+              <img class="header__logo__dark js-lazy" data-srcset="./img/logo-white-gallo-aldo.png 1x, ./img/logo-white-gallo-aldo.png 2x" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio" data-src="./img/logo-white-gallo-aldo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
             </a>
           </div>
 
           <div class="menustyle header__menu js-header-menu">
-            <button type="button" class="nav-button-open js-nav-open">
+            <button type="button" class="nav-button-open js-nav-open" aria-label="Apri menu di navigazione">
               <i class="icon" data-feather="menu"></i>
             </button>
-			  <a href="https://www.galloaldo.com/en-EN/"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>  	
+			  <a href="https://www.galloaldo.com/en-EN/" aria-label="English version" ><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="English version"></a>  	
           </div>
         </div>
         <!-- header__bar end -->
@@ -112,11 +112,11 @@
 
             <div class="nav__container">
               <div class="nav__header">
-                <button type="button" class="nav-button-back js-nav-back">
+                <button type="button" class="nav-button-back js-nav-back" aria-label="Indietro">
                   <i class="icon" data-feather="arrow-left-circle"></i>
                 </button>
 
-                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none" aria-label="Chiudi menu di navigazione">
                   <i class="icon" data-feather="x"></i>
                 </button>
               </div>
@@ -134,7 +134,7 @@
 				<!--SWITCH LANG-->
 					<div class="nav__info__item js-navInfo-item" style="margin-top:0 !important;">
 					   <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="./en-EN/staff.php"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>    
+                        <a href="./en-EN/staff.php" aria-label="English version"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="English version"></a>    
                       </div>
 					   </div>
 				<!--END SWTICH LANG-->	
@@ -161,7 +161,7 @@
               <div data-anim-child="slide-up" class="sectionHeading -lg">
                 <p class="sectionHeading__subtitle">
                   Il nostro staff<br>
-					<img src="img/italy_flag.svg" style="max-width:200px">
+					<img src="img/italy_flag.svg" style="max-width:200px" alt="Staff Gallo Aldo, azienda di Concesio, Brescia, Italia">
                 </p>
 				
                 <h2 class="sectionHeading__title fw-700">
@@ -193,7 +193,7 @@
                   <p class="serviceCard__text mt-16">
                     <strong>Simone</strong> e <strong>Aldo</strong> il fondatore sono sempre pronti a darvi consigli indirizzandovi all’acquisto del prodotto ideale per le vs esigenze formulandovi offerte e preventivi gratuiti e soprattutto rapidi. Offriamo anche un servizio Marketing che tiene aggiornato la nostra clientela tramite newsletter mensili sulle novità dei prodotti.
                   </p>
-					<p><strong>E-mail:</strong> <a href="mailto:info@galloaldo.com?subject=richiesta informazioni da galloaldo.com" class="button -underline">info@galloaldo.com</a></p>
+					<p><strong>E-mail:</strong> <a href="mailto:info@galloaldo.com?subject=richiesta informazioni da galloaldo.com" class="button -underline" aria-label="Email ufficio commerciale">info@galloaldo.com</a></p>
                 </div>
               </div>
             </div>
@@ -216,7 +216,7 @@
                   <p class="serviceCard__text mt-16">
                    Un team di ragazzi che ricevono le commesse dai clienti e iniziano il processo di evasione dell’ ordine con il massimo dell’impegno, curando ogni prodotto singolarmente etichettandolo con il codice a barre del cliente e curando l’imballo. <strong>Nakia</strong> responsabile del magazzino controlla giornalmente il processo.
                   </p>
-<p><strong>E-mail:</strong> <a href="mailto:magazzino@galloaldo.com?subject=richiesta informazioni da galloaldo.com" class="button -underline">magazzino@galloaldo.com</a></p>
+<p><strong>E-mail:</strong> <a href="mailto:magazzino@galloaldo.com?subject=richiesta informazioni da galloaldo.com" class="button -underline" aria-label="Email magazzino">magazzino@galloaldo.com</a></p>
                 </div>
               </div>
             </div>
@@ -239,7 +239,7 @@
                   <p class="serviceCard__text mt-16">
                   <strong>Cristian</strong> del nostro team che si prende cura dalla prenotazione delle spedizioni tramite i portali web dei corrieri , alla bollettazione automatica sui colli. Tiene aggiornato il cliente sulla spedizione passo dopo passo tramite mail giornaliere dove inserisce gli screen shot dello stato della spedizione fino alla consegna.
                   </p>
-<p><strong>E-mail: </strong><a href="mailto:logistica@galloaldo.com?subject=richiesta informazioni da galloaldo.com" class="button -underline">logistica@galloaldo.com</a></p>
+<p><strong>E-mail: </strong><a href="mailto:logistica@galloaldo.com?subject=richiesta informazioni da galloaldo.com" class="button -underline" aria-label="Email logistica">logistica@galloaldo.com</a></p>
                 </div>
               </div>
             </div>
@@ -262,7 +262,7 @@
                   <p class="serviceCard__text mt-16">
                   Gestito dal nostro <strong>Matteo</strong> che ha la responsabilità di gestire il rapporto con i fornitori dando importanza all’acquisto delle materie prime di ottima scelta rigorosamente Made in Italy.
                   </p>
-<p><strong>E-mail:</strong> <a href="mailto:acquisti@galloaldo.com?subject=richiesta informazioni da galloaldo.com" class="button -underline">acquisti@galloaldo.com</a></p>
+<p><strong>E-mail:</strong> <a href="mailto:acquisti@galloaldo.com?subject=richiesta informazioni da galloaldo.com" class="button -underline" aria-label="Email acquisti">acquisti@galloaldo.com</a></p>
                 </div>
               </div>
             </div>
@@ -285,7 +285,7 @@
                   <p class="serviceCard__text mt-16">
                   Tutta l'amministrazione della Gallo Aldo è capitanata dalla nostra <strong>Erika</strong> che gestisce tutti gli aspetti ed i dettagli che riguardano sia la parte di gestione contabile sia quella amministrativa.
                   </p>
-<p><strong>E-mail:</strong> <a href="mailto:contabilita@galloaldo.com?subject=richiesta informazioni da galloaldo.com" class="button -underline">contabilita@galloaldo.com</a></p>
+<p><strong>E-mail:</strong> <a href="mailto:contabilita@galloaldo.com?subject=richiesta informazioni da galloaldo.com" class="button -underline" aria-label="Email contabilità">contabilita@galloaldo.com</a></p>
                 </div>
               </div>
             </div>

@@ -18,9 +18,7 @@
   <meta charset="UTF-8">
   <?php include_once $_SERVER['DOCUMENT_ROOT'].'/head-perf.php'; ?>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="./validate/jquery.min.js"></script>
-<script src="./validate/jquery.validate.min.js"></script>
-	 <style>label.error {
+<style>label.error {
     color: red;
     font-size: 1rem;
     display: block;
@@ -394,10 +392,12 @@ Office (Whatsapp Chat)
 
 
   <!-- JavaScript -->
-  <script src="../js/vendors.js"></script>
-  <script src="../js/main.js"></script>
+  <script src="../js/vendors.js" defer></script>
+  <script src="../js/main.js" defer></script>
+<script src="./validate/jquery.min.js" defer></script>
+<script src="./validate/jquery.validate.min.js" defer></script>
 	<script>
-	$(document).ready(function() {
+	document.addEventListener('DOMContentLoaded', function() {
 $("#formcontatto").validate();
 });
 	</script>

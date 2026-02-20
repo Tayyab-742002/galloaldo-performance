@@ -90,19 +90,19 @@
         <!-- header__bar start -->
         <div class="header__bar">
           <div class="header__logo js-header-logo">
-            <a data-barba href="../index.php">
+            <a data-barba href="../index.php" aria-label="Home">
               <img class="header__logo__light js-lazy" data-srcset="../img/gallo-aldo-logo-wht.svg 1x, ../img/gallo-aldo-logo-wht.svg 2x" data-src="../img/gallo-aldo-logo-wht.svg" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
             </a>
-            <a data-barba href="../index.php">
+            <a data-barba href="../index.php" aria-label="Home">
               <img class="header__logo__dark js-lazy" data-srcset="../img/gallo-aldo-logo-black.svg 1x, ../img/gallo-aldo-logo-black.svg 2x" data-src="../img/gallo-aldo-logo-black.svg" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
             </a>
           </div>
 
           <div class="menustyle header__menu js-header-menu">
-            <button type="button" class="nav-button-open js-nav-open">
+            <button type="button" class="nav-button-open js-nav-open" aria-label="Apri menu di navigazione">
               <i class="icon" data-feather="menu"></i>
             </button>
-			  <a href="https://www.galloaldo.com/en-EN/index.php"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>  	
+			  <a href="https://www.galloaldo.com/en-EN/index.php" aria-label="English version"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="English version" ></a>  	
           </div>
         </div>
         <!-- header__bar end -->
@@ -115,11 +115,11 @@
 
             <div class="nav__container">
               <div class="nav__header">
-                <button type="button" class="nav-button-back js-nav-back">
+                <button type="button" class="nav-button-back js-nav-back" aria-label="Indietro">
                   <i class="icon" data-feather="arrow-left-circle"></i>
                 </button>
 
-                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none" aria-label="Chiudi menu di navigazione">
                   <i class="icon" data-feather="x"></i>
                 </button>
               </div>
@@ -137,7 +137,7 @@
 				<!--SWITCH LANG-->
 					<div class="nav__info__item js-navInfo-item" style="margin-top:0 !important;">
 					   <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="../en-EN/contact.php"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>    
+                        <a href="../en-EN/contact.php" aria-label="English version"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="English version"></a>    
                       </div>
 					   </div>
 				<!--END SWTICH LANG-->	
@@ -163,7 +163,7 @@
             <div class="col-xl-7 col-lg-8">
               <ul class="breadcrumbs justify-content-center text-dark mb-40">
                 <li class="breadcrumbs-item">
-                  <a data-barba href="../index.php">
+                  <a data-barba href="../index.php" aria-label="Home">
                     Home
                   </a>
                 </li>
@@ -197,7 +197,7 @@
 
               <!-- blog-item start -->
               <div class="blogPost">
-                <a data-barba href="../servizi/noleggio-pali-per-bandiere/index.php">
+                <a data-barba href="../servizi/noleggio-pali-per-bandiere/index.php" aria-label="Noleggio Pali per Bandiere">
                   <div class="blogPost__img -hover">
                     <div class="bg-image ratio ratio-16:9 js-lazy" data-bg="img/sett-2022/noleggio-pennoni.png"></div>
                   </div>
@@ -211,7 +211,7 @@
                   </div>
 
                   <h3 class="blogPost__title text-2xl fw-600 mt-16">
-                    <a data-barba href="../servizi/noleggio-pali-per-bandiere/index.php">
+                    <a data-barba href="../servizi/noleggio-pali-per-bandiere/index.php" aria-label="Noleggio Pali per Bandiere">
                       Noleggio Pali per Bandiere
                     </a>
                   </h3>
@@ -221,7 +221,7 @@
                   </p>
 
                   <div class="blogPost__button text-dark mt-12">
-                    <a href="../servizi/noleggio-pali-per-bandiere/index.php" data-barba class="button -underline fw-500">
+                    <a href="../servizi/noleggio-pali-per-bandiere/index.php" data-barba class="button -underline fw-500" aria-label="Scopri di più su Noleggio Pali per Bandiere">
                       Scopri di più
                     </a>
                   </div>
@@ -255,8 +255,8 @@
 					
                   <ul>
                     <li>
-                      <a href="mailto:info@galloaldo.com">info@galloaldo.com</a>
-						<a href="tel:+390308900679">+39-030.8900679</a>
+                      <a href="mailto:info@galloaldo.com" aria-label="Email Gallo Aldo">info@galloaldo.com</a>
+						<a href="tel:+390308900679" aria-label="Telefono Gallo Aldo">+39-030.8900679</a>
                     </li>
                    
                   </ul>

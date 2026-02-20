@@ -576,7 +576,7 @@ button:hover, .btn:hover {
   <img src="/desk/certificazione.webp" 
        alt="certificazione aste per bandiere" 
        title="certificazione aste per bandiere" 
-       class="responsive-img" width="800" height="400">
+       class="responsive-img" width="300" height="200">
 </picture>
 </div>
          <div ><p style="text-align:center;"> <font color="#FFFFFF"> <strong>Certificazione ISO 9001:2015</strong><br>

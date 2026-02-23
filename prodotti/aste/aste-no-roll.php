@@ -175,7 +175,7 @@
 
               <div class="sectionHeading -lg">
                 
-				  <p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+				  <p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Bandiera Italiana"></p>
 				  
 				  <h1 class="sectionHeading__title">
                   Aste per Bandiere da Esterno Sistema No-Roll

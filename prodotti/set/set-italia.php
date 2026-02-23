@@ -259,6 +259,7 @@
 
   <!-- JavaScript -->
   <script src="../../js/vendors.js" defer></script>
+  <script src="../../js/vendors-grid.js" defer></script>
   <script src="../../js/main.js" defer></script>
 
 </body>

@@ -42,20 +42,12 @@
 	<?php include ("../../headscript.html")?>
 </head>
 
-<body class="preloader-visible" >
+<body  >
 
 <?php include ("../../bodyscript.html")?>
 
 
-  <!-- preloader start -->
-  <div class="preloader js-preloader">
-    <div class="preloader__bg"></div>
 
-    <div class="preloader__progress">
-      <div class="preloader__progress__inner"></div>
-    </div>
-  </div>
-  <!-- preloader end -->
 
 
   <!-- cursor start -->
@@ -228,7 +220,7 @@
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Ricambi e Accessori
                   </h3>
-<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+<p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Bandiera Italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Una vasta gamma di accessori e ricambi. Dischi copribase, zavorre e kit base
                   </p>
@@ -248,7 +240,7 @@
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Borse e Cinture
                   </h3>
-<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+<p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Bandiera Italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Borse e borsoni portabandiera e gonfaloni di diverse misure e borse porta stendardo 
                   </p>
@@ -268,7 +260,7 @@
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Gagliardetti
                   </h3>
-					<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Bandiera Italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Accessori per gagliardetti. Traversini di diverse misure e borchie terminali
                   </p>
@@ -288,7 +280,7 @@
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Piantane
                   </h3>
-					<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Bandiera Italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Piantane, cordoni di delimitazione e accessori. Piantane con cartello personalizzabile.
                   </p>

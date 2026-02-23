@@ -222,7 +222,7 @@
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Basi da Interno
                   </h3>
-<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+<p><img src="../../img/italy_flag.svg" style="width: 200px " alt="Bandiera Italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Basi e Supporti da interno per aste e bandiere: cromate, in ottone, in acciaio inox fino a un massimo di 5 sedi
                   </p>
@@ -242,7 +242,7 @@
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Basi da Esterno
                   </h3>
-<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+<p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Bandiera Italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Basi portabandiera da esterno in ferro, cemento granigliato, basi sottoruota e basi in plastica riempibili ad acqua o sabbia.
                   </p>
@@ -262,7 +262,7 @@
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Supporti da Esterno
                   </h3>
-					<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../../img/italy_flag.svg" style="width: 200px " alt="Bandiera Italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Supporti a parete da esterno da una a tre sedi in ferro e acciaio. Supporti a parete in plastica.
                   </p>
@@ -282,7 +282,7 @@
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Basette da Tavolo
                   </h3>
-					<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Bandiera Italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Basette per bandierine da tavolo un’ampia proposta di modelli con forme e materiali diversi, fino a 30 bandierine.
                   </p>

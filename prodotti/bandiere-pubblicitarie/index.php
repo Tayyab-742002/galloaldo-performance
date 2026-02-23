@@ -201,7 +201,7 @@
 
               <div class="sectionHeading -lg">
                 
-				  <p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+				  <p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Bandiera Italiana"></p>
 				  
 				  <h1 class="sectionHeading__title">
                  Strutture per Bandiere Pubblicitarie
@@ -311,6 +311,7 @@ Le nostre bandiere a vela sono un'ottima scelta per la pubblicità all'aperto, g
 
   <!-- JavaScript -->
   <script src="../../js/vendors.js" defer></script>
+  <script src="../../js/vendors-grid.js" defer></script>
   <script src="../../js/main.js" defer></script>
 
 </body>

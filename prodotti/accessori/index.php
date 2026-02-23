@@ -222,7 +222,7 @@
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Ricambi e Accessori
                   </h3>
-<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+<p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Ricambi e Accessori"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Una vasta gamma di accessori e ricambi. Dischi copribase, zavorre e kit base
                   </p>
@@ -242,7 +242,7 @@
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Borse e Cinture
                   </h3>
-<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+<p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Borse e Cinture"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Borse e borsoni portabandiera e gonfaloni di diverse misure e borse porta stendardo 
                   </p>
@@ -262,7 +262,7 @@
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Gagliardetti
                   </h3>
-					<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Gagliardetti"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Accessori per gagliardetti. Traversini di diverse misure e borchie terminali
                   </p>
@@ -282,7 +282,7 @@
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Piantane
                   </h3>
-					<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Piantane"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Piantane, cordoni di delimitazione e accessori. Piantane con cartello personalizzabile.
                   </p>

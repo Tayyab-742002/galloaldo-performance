@@ -275,11 +275,11 @@
             <div class="img-grid-2col">
 
               <div>
-                <img src="img/noleggio-pennoni-pali-per-bandiere-1.png" alt="Noleggio pennoni pali per bandiere" fetchpriority="high" decoding="sync" width="800" height="600">
+                <img src="img/noleggio-pennoni-pali-per-bandiere-1.jpg" alt="Noleggio pennoni pali per bandiere" fetchpriority="high" decoding="sync" width="800" height="600">
               </div>
 
               <div>
-                <img src="img/noleggio-pennoni-pali-per-bandiere-2.png" alt="Noleggio pennoni pali per bandiere" loading="lazy" decoding="async" width="800" height="600">
+                <img src="img/noleggio-pennoni-pali-per-bandiere-2.jpg" alt="Noleggio pennoni pali per bandiere" loading="lazy" decoding="async" width="800" height="600">
               </div>
 
               <div>

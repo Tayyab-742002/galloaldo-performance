@@ -236,7 +236,7 @@ function gtag_report_conversion(url) {
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Aste da Interno
                   </h3>
-<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+<p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Bandiera Italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Le nostre aste per bandiere da interno sono in alluminio anodizzato argento oppure oro, ferro e ottone cromato o lucidato oro, disponibili in diverse lunghezze e vari diametri.
                   </p>
@@ -256,7 +256,7 @@ function gtag_report_conversion(url) {
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Aste da Esterno
                   </h3>
-<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+<p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Bandiera Italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Le nostre aste per bandiere da esterno prodotte in alluminio anodizzato, un materiale che resiste agli effetti degli agenti atmosferici e ai graffi, disponibili in vari diametri.
                   </p>
@@ -276,7 +276,7 @@ function gtag_report_conversion(url) {
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Aste in Velluto
                   </h3>
-					<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Bandiera Italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Le nostre aste per bandiere personalizzate con velluto sono adatte nell'ambito militare e le parate. Tutte le nostre aste in velluto sono personalizzabili con lunghezza fino a 280cm
                   </p>
@@ -296,7 +296,7 @@ function gtag_report_conversion(url) {
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Aste Militari
                   </h3>
-					<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Bandiera Italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Le nostre aste per bandiere specifiche per l'ambito militare sono realizzate e prodotte seguendo le specifiche del capitolato dell'esercito italiano e personalizzabili con diversi stendardi.
                   </p>
@@ -316,7 +316,7 @@ function gtag_report_conversion(url) {
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Aste Grigio Micaceo
                   </h3>
-					<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Bandiera Italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Le nostre aste per bandiere da esterno della linea grigio micaceo prodotte in alluminio anodizzato, un materiale molto resistente agli agenti atmosferici, disponibili in vari diametri.
                   </p>
@@ -336,7 +336,7 @@ function gtag_report_conversion(url) {
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Aste No-Roll
                   </h3>
-					<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Bandiera Italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Il nostro sistema brevettato No Roll per aste per bandiere da esterno garantisce che le vostre bandiere non saranno mai più arrotolate su se stesse grazie a molla in acciaio INOX AISI 430. 
                   </p>
@@ -356,7 +356,7 @@ function gtag_report_conversion(url) {
                   <h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Astine per Veicoli
                   </h3>
-					<p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Bandiera Italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Una vasta scelta di aste cromate per bandiere da applicare su automobili e motociclette, con attacco a magnete o agganciabile al finestrino dell’auto. Astine in plastica per autovetture 
                   </p>

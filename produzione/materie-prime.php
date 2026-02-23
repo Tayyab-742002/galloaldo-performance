@@ -39,6 +39,10 @@
 
   <title>Materie prime per accessori per bandiere: ottone, alluminio, acciaio inox e ferro.</title>
   <meta name="description" content="Alla Gallo Aldo scegliamo accuratamente i produttori di materie prime:  ottone, alluminio, acciaio inox e ferro vengono accuratamente selezionati.">	
+
+  <!-- Preload LCP hero image (materie-prime — page-specific) -->
+  <link rel="preload" href="/produzione/img/materie-prime-bg.jpg" as="image" fetchpriority="high">
+
 	<?php include ("../headscript.html")?>
 </head>
 

@@ -39,6 +39,10 @@
 
   <title>Stampaggio a caldo e tornitura di aste, pennoni e accessori per bandiere.</title>
   <meta name="description" content="Dalla barra piena in ottone stampiamo a caldo alcuni articoli tipo basette da tavolo, pomoli e terminali. Scopri i nostri accessori in ottone per bandiere.">	
+
+  <!-- Preload LCP hero image (stampaggio-a-caldo — page-specific) -->
+  <link rel="preload" href="/produzione/img/stampaggio-a-caldo-tornitura-bg.jpg" as="image" fetchpriority="high">
+
 	<?php include ("../headscript.html")?>
 </head>
 

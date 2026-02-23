@@ -39,6 +39,10 @@
 
   <title>stampaggio metalli e fusione produzione aste e pennoniper bandiere.</title>
   <meta name="description" content="Gallo Aldo collabora con le migliori fonderie d'ottone in conchiglia per ottenere dagli stampi di proprietà, prodotti pressofusi di qualità per le bandiere.">	
+
+  <!-- Preload LCP hero image (stampaggio-metalli — page-specific) -->
+  <link rel="preload" href="/produzione/img/stampo-bg.jpg" as="image" fetchpriority="high">
+
 	<?php include ("../headscript.html")?>
 </head>
 

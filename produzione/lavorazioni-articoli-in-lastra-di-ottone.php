@@ -39,6 +39,10 @@
 
   <title>Lavorazioni articoli in lastra di ottone per accessori per bandiere.</title>
   <meta name="description" content="Gli accessori per bandiere in ottone, nascono attraverso le migliori macchine per lavorare la lastra d'ottone e di rame, rigorosamente made in italy.">	
+
+  <!-- Preload LCP hero image (lavorazioni-lastra-ottone — page-specific) -->
+  <link rel="preload" href="/produzione/img/lastra-ottone-bg.jpg" as="image" fetchpriority="high">
+
 	<?php include ("../headscript.html")?>
 </head>
 

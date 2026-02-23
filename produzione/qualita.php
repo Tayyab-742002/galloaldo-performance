@@ -39,6 +39,10 @@
 
   <title>Qualità e Innovazione nel mondo degli Accessori per Bandiere.</title>
   <meta name="description" content="Alla Gallo Aldo, il controllo qualità è un processo primario, secondo solo alla produzione: controlliamo i componenti, appena fuoriusciti dalle fasi di lavorazione.">	
+
+  <!-- Preload LCP hero image (qualita — page-specific) -->
+  <link rel="preload" href="/produzione/img/quality-bg.jpg" as="image" fetchpriority="high">
+
 	<?php include ("../headscript.html")?>
 </head>
 

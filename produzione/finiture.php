@@ -39,6 +39,10 @@
 
   <title>Le migliori finiture per aste, pennoni e accessori per bandiere.</title>
   <meta name="description" content="Curiamo la finitura di ogni nostro prodotto. Se vuoi scegliere dei professionisti per gli accessori delle tue bandiere,scegli noi.">	
+
+  <!-- Preload LCP hero image (finiture — page-specific) -->
+  <link rel="preload" href="/produzione/img/finiture2-bg.jpg" as="image" fetchpriority="high">
+
 	<?php include ("../headscript.html")?>
 </head>
 

@@ -39,6 +39,10 @@
 
   <title>Spedizioni sicure, Imballaggi per aste, pennoni e accessori per bandiere.</title>
   <meta name="description" content="Alla Gallo Aldo diamo molta importanza alla spedizione della merce, agli imballi curati e definiti per resistere agli urti. Affidati alla nostra professionalità ora.">	
+
+  <!-- Preload LCP hero image (spedizioni — page-specific) -->
+  <link rel="preload" href="/produzione/img/shipping-bg.jpg" as="image" fetchpriority="high">
+
 	<?php include ("../headscript.html")?>
 </head>
 

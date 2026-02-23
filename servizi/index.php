@@ -16,9 +16,19 @@
 
   <!-- Required meta tags -->
   <meta charset="UTF-8">
-  <?php include_once $_SERVER['DOCUMENT_ROOT'].'/head-perf.php'; ?>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Favicon -->
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="../css/vendors.css">
+  <link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../wh/venom-button.css">
+
+
+  <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
@@ -42,20 +52,10 @@
 	<?php include ("../headscript.html")?>
 </head>
 
-<body class="preloader-visible" >
+<body>
 
 <?php include ("../bodyscript.html")?>
 
-
-  <!-- preloader start -->
-  <div class="preloader js-preloader">
-    <div class="preloader__bg"></div>
-
-    <div class="preloader__progress">
-      <div class="preloader__progress__inner"></div>
-    </div>
-  </div>
-  <!-- preloader end -->
 
 
   <!-- cursor start -->

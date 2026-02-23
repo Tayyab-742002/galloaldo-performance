@@ -43,20 +43,12 @@
 	<?php include ("../headscript.html")?>
 </head>
 
-<body class="preloader-visible" >
+<body>
 
 <?php include ("../bodyscript.html")?>
 
 
-  <!-- preloader start -->
-  <div class="preloader js-preloader">
-    <div class="preloader__bg"></div>
 
-    <div class="preloader__progress">
-      <div class="preloader__progress__inner"></div>
-    </div>
-  </div>
-  <!-- preloader end -->
 
 
   <!-- cursor start -->
@@ -99,10 +91,10 @@
           </div>
 
           <div class="menustyle header__menu js-header-menu">
-            <button type="button" class="nav-button-open js-nav-open">
-              <i class="icon" data-feather="menu"></i>
+            <button type="button" class="nav-button-open js-nav-open" aria-label="Apri menu">
+              <i class="icon" data-feather="menu" aria-hidden="true"></i>
             </button>
-			  <a href="https://www.galloaldo.com/en-EN/"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>  	
+			  <a href="https://www.galloaldo.com/en-EN/" aria-label="Switch to English version"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="English"></a>  	
           </div>
         </div>
         <!-- header__bar end -->
@@ -114,12 +106,12 @@
 
             <div class="nav__container">
               <div class="nav__header">
-                <button type="button" class="nav-button-back js-nav-back">
-                  <i class="icon" data-feather="arrow-left-circle"></i>
+                <button type="button" class="nav-button-back js-nav-back" aria-label="Torna indietro">
+                  <i class="icon" data-feather="arrow-left-circle" aria-hidden="true"></i>
                 </button>
 
-                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
-                  <i class="icon" data-feather="x"></i>
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none" aria-label="Chiudi menu">
+                  <i class="icon" data-feather="x" aria-hidden="true"></i>
                 </button>
               </div>
 
@@ -136,7 +128,7 @@
 				<!--SWITCH LANG-->
 					<div class="nav__info__item js-navInfo-item" style="margin-top:0 !important;">
 					   <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="../en-EN/products/index.php"><img src="../img/uk-flag.svg" class="mw36"></a>    
+                        <a href="../en-EN/products/index.php" aria-label="Switch to English version"><img src="../img/uk-flag.svg" class="mw36" alt="English"></a>    
                       </div>
 					   </div>
 				<!--END SWTICH LANG-->	
@@ -230,7 +222,7 @@
                   <a href="./set/set-da-sala.php" title="Gallo Aldo Brescia Set da sala per bandiera in acciaio e alluminio in pezzo unico fino a 3 sedi"><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Set Economici da sala
                   </h3></a>
-					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../img/italy_flag.svg" style="width: 200px" alt="Bandiera italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Set da sala per bandiera in acciaio e alluminio in pezzo unico fino a 3 sedi
                   </p>
@@ -250,7 +242,7 @@
                   <a href="./aste/index.php" title="Gallo Aldo Brescia Aste per bandiere da interno ed esterno di diverse lunghezze e diametri"><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Aste
 					  </h3></a>
-<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+<p><img src="../img/italy_flag.svg" style="width: 200px" alt="Bandiera italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Aste per bandiere da interno ed esterno di diverse lunghezze e diametri
                   </p>
@@ -270,7 +262,7 @@
                   <a href="./lance-ed-emblemi/index.php" title="Gallo Aldo Brescia aste per bandiere. Lance e gli emblemi per aste portabandiera in fusione d'ottone"><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Lance ed Emblemi
 					  </h3></a>
-					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../img/italy_flag.svg" style="width: 200px" alt="Bandiera italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Lance e gli emblemi per aste portabandiera in fusione d'ottone
                   </p>
@@ -290,7 +282,7 @@
                   <a href="./emblemi-regioni-italiane/index.php" title="Gallo Aldo Brescia aste per bandiere. Lance e gli emblemi per aste portabandiera in fusione d'ottone"><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Emblemi Regioni Italiane
 					  </h3></a>
-					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../img/italy_flag.svg" style="width: 200px" alt="Bandiera italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Gli emblemi per aste portabandiera per le bandiere delle regioni d'Italia
                   </p>
@@ -310,7 +302,7 @@
                   <a href="./pomoli-e-terminali/index.php" title="Gallo Aldo Brescia Piantane, Pomoli di diverse forme, diversi diametri e materiali, prevalentemente in fusione di ottone" ><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Pomoli e Terminali
 					  </h3></a>
-					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../img/italy_flag.svg" style="width: 200px" alt="Bandiera italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Pomoli di diverse forme, diversi diametri e materiali, prevalentemente in fusione di ottone
                   </p>
@@ -330,7 +322,7 @@
                   <a href="./basi-e-supporti/index.php" title="Gallo Aldo Brescia Basi e supporti da interno ed esterno per aste e bandiere. Diversi diametri fino a 5 sedi"><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Basi e Supporti
                   </h3></a>
-					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../img/italy_flag.svg" style="width: 200px" alt="Bandiera italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                    Basi e supporti da interno ed esterno per aste e bandiere. Diversi diametri fino a 5 sedi
                   </p>
@@ -350,7 +342,7 @@
                   <a href="./traverse/index.php" title="Gallo Aldo Brescia Traverse per labari e gonfaloni interamente in ottone con raccordi e anelli saldati al tubo"><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Traverse
                   </h3></a>
-					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../img/italy_flag.svg" style="width: 200px" alt="Bandiera italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Traverse per labari e gonfaloni interamente in ottone con raccordi e anelli saldati al tubo
                   </p>
@@ -370,7 +362,7 @@
                   <a href="./pennoni-e-accessori/index.php" title="Gallo Aldo Brescia Pennoni e pali per bandiere"><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Pennoni
 					  </h3></a>
-					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../img/italy_flag.svg" style="width: 200px" alt="Bandiera italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                    Pennoni in Alluminio Anodizzato sono composti dalla lega 60/63 anticorodal 
                   </p>
@@ -390,7 +382,7 @@
                    <a href="./bandiere-pubblicitarie/index.php" title="Gallo Aldo Brescia Strutture per bandiere pubblicitarie a vela e goccia di diverse misure."><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Bandiere Pubblicitarie
 					   </h3></a>
-					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../img/italy_flag.svg" style="width: 200px" alt="Bandiera italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Strutture per bandiere pubblicitarie a vela e goccia di diverse misure
                   </p>
@@ -412,7 +404,7 @@
                  <a href="./accessori/index.php" title="Gallo Aldo Brescia Accessori per bandiere"><h3 class="serviceCard__title text-accent text-2xl fw-500 mt-40 md:mt-24">
                     Accessori
 					 </h3></a>
-					<p><img src="../img/italy_flag.svg" style="width: 200px"></p>
+					<p><img src="../img/italy_flag.svg" style="width: 200px" alt="Bandiera italiana"></p>
                   <p class="serviceCard__text text-light mt-16">
                     Accessori per supporti portabandiera, sistemi di issaggio, e molto altro
                   </p>
@@ -451,8 +443,8 @@
 
 
   <!-- JavaScript -->
-  <script src="../js/vendors.js"></script>
-  <script src="../js/main.js"></script>
+  <script src="../js/vendors.js" defer></script>
+  <script src="../js/main.js" defer></script>
 
 </body>
 

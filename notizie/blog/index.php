@@ -81,18 +81,18 @@
       <header class="header -dark -sticky-dark js-header-dark js-header">
        <!-- header__bar start -->
         <div class="header__bar">
-          <div class="header__logo js-header-logo"> <a data-barba href="../../" title="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
+          <div class="header__logo js-header-logo"> <a data-barba href="../../" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio" title="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
               <img class="header__logo__light js-lazy" data-srcset="../../img/gallo-aldo-srl-logo.png 1x, ../../img/gallo-aldo-srl-logo.png 2x" data-src="../../img/gallo-aldo-srl-logo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
-            </a>            <a data-barba href="../../">
+            </a>            <a data-barba href="../../" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio" title="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
               <img class="header__logo__dark js-lazy"data-srcset="../../img/logo-white-gallo-aldo.png 1x, ../../img/logo-white-gallo-aldo.png 2x" data-src="../../img/logo-white-gallo-aldo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
             </a>
           </div>
 
           <div class="menustyle header__menu js-header-menu">
-            <button type="button" class="nav-button-open js-nav-open">
+            <button type="button" class="nav-button-open js-nav-open" aria-label="Menu" title="Menu">
               <i class="icon" data-feather="menu"></i>
             </button>
-			  <a href="https://www.galloaldo.com/en-EN/"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>  	
+			  <a href="https://www.galloaldo.com/en-EN/" aria-label="Switch language to English" title="Switch language to English"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="Switch language to English"></a>  	
           </div>
         </div>
         <!-- header__bar end -->
@@ -104,11 +104,11 @@
 
             <div class="nav__container">
               <div class="nav__header">
-                <button type="button" class="nav-button-back js-nav-back">
+                <button type="button" class="nav-button-back js-nav-back" aria-label="Back" title="Back">
                   <i class="icon" data-feather="arrow-left-circle"></i>
                 </button>
 
-                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none" aria-label="Close" title="Close">
                   <i class="icon" data-feather="x"></i>
                 </button>
               </div>
@@ -126,7 +126,7 @@
 				<!--SWITCH LANG-->
 					<div class="nav__info__item js-navInfo-item" style="margin-top:0 !important;">
 					   <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="../../en-EN/products/accessories/index.php"><img src="../../img/uk-flag.svg" class="mw36"></a>    
+                        <a href="../../en-EN/products/accessories/index.php" aria-label="Switch language to English" title="Switch language to English"><img src="../../img/uk-flag.svg" class="mw36" alt="Switch language to English"></a>    
                       </div>
 					   </div>
 				<!--END SWTICH LANG-->	
@@ -169,7 +169,7 @@
                 </div>
 
                 <div class="masthead__button overflow-hidden mt-48 md:mt-32">
-                  <a href="../../richiedi-catalogo.php" class="button -md -white text-black js-button">
+                  <a href="../../richiedi-catalogo.php" aria-label="Richiedi il Catalogo" title="Richiedi il Catalogo" class="button -md -white text-black js-button">
                     Richiedi il Catalogo
                   </a>
                 </div>
@@ -226,7 +226,7 @@
                   </p>
 
                   <div class="serviceCard__navButton navButton -md mt-24">
-                    <a href="./ricambi.php" title="Gallo Aldo Brescia Una vasta gamma di accessori e ricambi. Dischi copribase, zavorre e kit base" class="navButton__item button -outline-white text-white">
+                    <a href="./ricambi.php" aria-label="Gallo Aldo Brescia Una vasta gamma di accessori e ricambi. Dischi copribase, zavorre e kit base" title="Gallo Aldo Brescia Una vasta gamma di accessori e ricambi. Dischi copribase, zavorre e kit base" class="navButton__item button -outline-white text-white">
                       <i data-feather="arrow-right" class="icon"></i>
                     </a>
                   </div>
@@ -246,7 +246,7 @@
                   </p>
 
                   <div class="serviceCard__navButton navButton -md mt-24">
-                    <a href="./borse-portabandiera.php" title="Gallo Aldo Brescia Borse e borsoni portabandiera di diverse misure e borse porta stendardo" class="navButton__item button -outline-white text-white">
+                    <a href="./borse-portabandiera.php" aria-label="Gallo Aldo Brescia Borse e borsoni portabandiera di diverse misure e borse porta stendardo" title="Gallo Aldo Brescia Borse e borsoni portabandiera di diverse misure e borse porta stendardo" class="navButton__item button -outline-white text-white">
                       <i data-feather="arrow-right" class="icon"></i>
                     </a>
                   </div>
@@ -266,7 +266,7 @@
                   </p>
 
                   <div class="serviceCard__navButton navButton -md mt-24">
-                    <a href="./accessori-per-gagliardetti.php" title="Gallo Aldo Brescia aste per bandiere. Accessori per gagliardetti. Traversini di diverse misure e borchie terminali" class="navButton__item button -outline-white text-white">
+                    <a href="./accessori-per-gagliardetti.php" aria-label="Gallo Aldo Brescia aste per bandiere. Accessori per gagliardetti. Traversini di diverse misure e borchie terminali" title="Gallo Aldo Brescia aste per bandiere. Accessori per gagliardetti. Traversini di diverse misure e borchie terminali" class="navButton__item button -outline-white text-white">
                       <i data-feather="arrow-right" class="icon"></i>
                     </a>
                   </div>
@@ -286,7 +286,7 @@
                   </p>
 
                   <div class="serviceCard__navButton navButton -md mt-24">
-                    <a href="./piantane-di-delimitazione.php" title="Gallo Aldo Brescia Piantane, cordoni di delimitazione e accessori (capicorda e ganci). Piantane con cartello personalizzabile e intercambiabile da posizionare all’ingresso di sale e meeting rooms e piantane eleganti in ottone per l’aggancio di cordoni sintetici" class="navButton__item button -outline-white text-white">
+                    <a href="./piantane-di-delimitazione.php" aria-label="Gallo Aldo Brescia Piantane, cordoni di delimitazione e accessori (capicorda e ganci). Piantane con cartello personalizzabile e intercambiabile da posizionare all’ingresso di sale e meeting rooms e piantane eleganti in ottone per l’aggancio di cordoni sintetici" title="Gallo Aldo Brescia Piantane, cordoni di delimitazione e accessori (capicorda e ganci). Piantane con cartello personalizzabile e intercambiabile da posizionare all’ingresso di sale e meeting rooms e piantane eleganti in ottone per l’aggancio di cordoni sintetici" class="navButton__item button -outline-white text-white">
                       <i data-feather="arrow-right" class="icon"></i>
                     </a>
                   </div>

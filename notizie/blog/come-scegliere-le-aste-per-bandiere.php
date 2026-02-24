@@ -88,18 +88,18 @@
       <header class="header -light -sticky-light js-header" style="background: #FFFFFF">
       <!-- header__bar start -->
         <div class="header__bar">
-          <div class="header__logo js-header-logo"> <a data-barba href="../../" title="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
+          <div class="header__logo js-header-logo"> <a data-barba href="../../" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio" title="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
               <img class="header__logo__light js-lazy" data-srcset="../../img/gallo-aldo-srl-logo.png 1x, ../../img/gallo-aldo-srl-logo.png 2x" data-src="../../img/gallo-aldo-srl-logo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
-            </a>            <a data-barba href="../../">
+            </a>            <a data-barba href="../../" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio" title="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
               <img class="header__logo__dark js-lazy"data-srcset="../../img/logo-white-gallo-aldo.png 1x, ../../img/logo-white-gallo-aldo.png 2x" data-src="../../img/logo-white-gallo-aldo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
             </a>
           </div>
 
           <div class="menustyle header__menu js-header-menu">
-            <button type="button" class="nav-button-open js-nav-open">
+            <button type="button" class="nav-button-open js-nav-open" aria-label="Menu" title="Menu">
               <i class="icon" data-feather="menu"></i>
             </button>
-			  <a href="https://www.galloaldo.com/en-EN/"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>  	
+			  <a href="https://www.galloaldo.com/en-EN/" aria-label="Switch language to English" title="Switch language to English"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="Switch language to English"></a>  	
           </div>
         </div>
         <!-- header__bar end -->
@@ -112,11 +112,11 @@
 
             <div class="nav__container">
               <div class="nav__header">
-                <button type="button" class="nav-button-back js-nav-back">
+                <button type="button" class="nav-button-back js-nav-back" aria-label="Back" title="Back">
                   <i class="icon" data-feather="arrow-left-circle"></i>
                 </button>
 
-                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none" aria-label="Close" title="Close">
                   <i class="icon" data-feather="x"></i>
                 </button>
               </div>
@@ -134,7 +134,7 @@
 				<!--SWITCH LANG-->
 					<div class="nav__info__item js-navInfo-item" style="margin-top:0 !important;">
 					   <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="../../en-EN/products/flying-banners/index.php"><img src="../../img/uk-flag.svg" class="mw36"></a>    
+                        <a href="../../en-EN/products/flying-banners/index.php" aria-label="Switch language to English" title="Switch language to English"><img src="../../img/uk-flag.svg" class="mw36" alt="Switch language to English"></a>    
                       </div>
 					   </div>
 				<!--END SWTICH LANG-->	
@@ -169,7 +169,7 @@
                 Scegliere l'asta bandiere non è cosa semplice, affidati alla nostra esperienza.
               </p>
 
-              <a href="https://www.galloaldo.com/richiedi-catalogo.php" title="Richiedi il Catalogo aste e accessori per bandiere" class="button -md -white text-black mt-32">
+              <a href="https://www.galloaldo.com/richiedi-catalogo.php" aria-label="Richiedi il Catalogo aste e accessori per bandiere" title="Richiedi il Catalogo aste e accessori per bandiere" class="button -md -white text-black mt-32">
                Richiedi il Catalogo
               </a>
             </div>
@@ -189,7 +189,7 @@
           <div class="row">
             <div class="col-xl-7 col-lg-8">
               <ul class="breadcrumbs text-black mb-40">
-                <li class="breadcrumbs-item">   <a data-barba href="../../">
+                <li class="breadcrumbs-item">   <a data-barba href="../../" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio" title="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
                     Home
                   </a>
                 </li>
@@ -255,7 +255,7 @@ In conclusione, scegliere un'asta per bandiere richiede una valutazione attenta 
               
 
               <div class="col-auto">
-                 <a class="button -md -outline-black text-black" href="../../richiedi-catalogo.php" title="Le lance e gli emblemi per aste portabandiera a catalogo sono tutti in fusione di ottine sono rifiniti con cura">
+                 <a class="button -md -outline-black text-black" href="../../richiedi-catalogo.php" aria-label="Le lance e gli emblemi per aste portabandiera a catalogo sono tutti in fusione di ottine sono rifiniti con cura" title="Le lance e gli emblemi per aste portabandiera a catalogo sono tutti in fusione di ottine sono rifiniti con cura" >
                   Richiedi il Catalogo
                 </a>
                 </a>

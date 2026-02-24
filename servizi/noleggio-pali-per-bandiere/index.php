@@ -1,15 +1,19 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="it">
 
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-859280756"></script>
+<!-- Google tag (gtag.js) - deferred to not block LCP -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-859280756');
+  window.addEventListener('load', function() {
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=AW-859280756';
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-859280756');
+  });
 </script>
 
 
@@ -18,15 +22,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Preload LCP image immediately - highest priority -->
+  <link rel="preload" as="image" href="img/noleggio-pennoni-pali-per-bandiere-1.jpg" fetchpriority="high">
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="../../css/vendors.css">
-  <link rel="stylesheet" href="../../css/main.css">
+  <!-- DNS prefetch for external resources -->
+  <link rel="dns-prefetch" href="https://www.galloaldo.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=optional" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=optional" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=optional">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=optional">
+  </noscript>
 
-	<link rel="stylesheet" href="../../wh/venom-button.css">
+  <!-- Stylesheets - non render blocking -->
+  <link rel="preload" as="style" href="../../css/vendors.css" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" as="style" href="../../css/main.css" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" as="style" href="../../wh/venom-button.css" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="../../css/vendors.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../wh/venom-button.css">
+  </noscript>
+
+  <!-- Polyfill for older browsers that don't support rel=preload -->
+  <script>
+    !function(e){"use strict";var t=function(t,n,r){function o(e){return d.body?e():void setTimeout(function(){o(e)})}function i(){f.addEventListener&&f.removeEventListener("load",i),f.media=r||"all"}var a,d=e.document,f=d.createElement("link");if(n)a=n;else{var s=(d.body||d.documentElement).style;a="undefined"!=typeof s.transition?"transition":"undefined"!=typeof s.WebkitTransition?"WebkitTransition":""}f.rel="stylesheet",f.href=t,f.media="only x",o(function(){d.head.appendChild(f)}),setTimeout(i)};e.loadCSS=t}("undefined"!=typeof global?global:this);
+  </script>
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="57x57" href="../../img/favicon/apple-icon-57x57.png">
@@ -47,25 +70,63 @@
   <meta name="msapplication-TileImage" content="../../img/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
-    <title>Noleggio a breve termine pennoni pali aste e pennoni per bandiere .</title>
-   <meta name="description" content="La Gallo Aldo è azienda specializzata in produzione e noleggio aste, pali e pennoni ed accessori per bandiere in metallo e fusione. Chiedi un preventivo ora.">	
+  <title>Noleggio a breve termine pennoni pali aste e pennoni per bandiere .</title>
+  <meta name="description" content="La Gallo Aldo è azienda specializzata in produzione e noleggio aste, pali e pennoni ed accessori per bandiere in metallo e fusione. Chiedi un preventivo ora.">	
 	<?php include ("../../headscript.html")?>
+
+  <style>
+    /* Prevent CLS from async font loading */
+    body { font-family: Inter, Arial, sans-serif; }
+    h1, h2, h3, h4, h5, h6 { font-family: Oswald, Arial, sans-serif; }
+
+    /* Prevent CLS from logo images */
+    .header__logo img {
+      width: auto;
+      height: 40px;
+    }
+
+    /* Prevent CLS from flag images */
+    img.mw36 {
+      width: 36px;
+      height: 24px;
+    }
+
+    /* Italy flag in hero */
+    .sectionHeading p img[src*="italy_flag"] {
+      width: 200px;
+      height: auto;
+    }
+
+    /* 2-col image grid */
+    .img-grid-2col {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+    @media (min-width: 768px) {
+      .img-grid-2col {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    .img-grid-2col img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Skip rendering below-fold content until needed - reduces LCP work */
+    .layout-pb-md.bg-dark-1 {
+      content-visibility: auto;
+      contain-intrinsic-size: 0 800px;
+    }
+  </style>
+
 </head>
 
-<body class="preloader-visible" >
+<body>
 
 <?php include ("../../bodyscript.html")?>
 
-
-  <!-- preloader start -->
-  <div class="preloader js-preloader">
-    <div class="preloader__bg"></div>
-
-    <div class="preloader__progress">
-      <div class="preloader__progress__inner"></div>
-    </div>
-  </div>
-  <!-- preloader end -->
 
 
   <!-- cursor start -->
@@ -99,18 +160,18 @@
       <header class="header -dark -sticky-dark js-header-dark js-header">
        <!-- header__bar start -->
         <div class="header__bar">
-          <div class="header__logo js-header-logo"> <a data-barba href="../../" title="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
-              <img class="header__logo__light js-lazy" data-srcset="../../img/gallo-aldo-srl-logo.png 1x, ../../img/gallo-aldo-srl-logo.png 2x" data-src="../../img/gallo-aldo-srl-logo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
-            </a>            <a data-barba href="../../">
-              <img class="header__logo__dark js-lazy"data-srcset="../../img/logo-white-gallo-aldo.png 1x, ../../img/logo-white-gallo-aldo.png 2x" data-src="../../img/logo-white-gallo-aldo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
+          <div class="header__logo js-header-logo"> <a data-barba href="../../" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
+              <img class="header__logo__light" srcset="../../img/gallo-aldo-srl-logo.png 1x, ../../img/gallo-aldo-srl-logo.png 2x" src="../../img/gallo-aldo-srl-logo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio" width="180" height="40">
+            </a>            <a data-barba href="../../" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
+              <img class="header__logo__dark" srcset="../../img/logo-white-gallo-aldo.png 1x, ../../img/logo-white-gallo-aldo.png 2x" src="../../img/logo-white-gallo-aldo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio" width="180" height="40">
             </a>
           </div>
 
           <div class="menustyle header__menu js-header-menu">
-            <button type="button" class="nav-button-open js-nav-open">
+            <button type="button" class="nav-button-open js-nav-open" aria-label="Menu">
               <i class="icon" data-feather="menu"></i>
             </button>
-			  <a href="https://www.galloaldo.com/en-EN/"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>  	
+			  <a href="https://www.galloaldo.com/en-EN/" aria-label="English"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" width="36" height="24" alt="English"></a>  	
           </div>
         </div>
         <!-- header__bar end -->
@@ -122,11 +183,11 @@
 
             <div class="nav__container">
               <div class="nav__header">
-                <button type="button" class="nav-button-back js-nav-back">
+                <button type="button" class="nav-button-back js-nav-back" aria-label="Back">
                   <i class="icon" data-feather="arrow-left-circle"></i>
                 </button>
 
-                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none" aria-label="Close">
                   <i class="icon" data-feather="x"></i>
                 </button>
               </div>
@@ -144,7 +205,7 @@
 				<!--SWITCH LANG-->
 					<div class="nav__info__item js-navInfo-item" style="margin-top:0 !important;">
 					   <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="../../en-EN/index.php"><img src="../../img/uk-flag.svg" class="mw36"></a>    
+                        <a href="../../en-EN/index.php" aria-label="English"><img src="../../img/uk-flag.svg" class="mw36" width="36" height="24" alt="English"></a>    
                       </div>
 					   </div>
 				<!--END SWTICH LANG-->	
@@ -185,7 +246,7 @@
 
               <div class="sectionHeading -lg">
                 
-				  <p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+				  <p><img src="../../img/italy_flag.svg" style="width: 200px" width="200" height="133" alt="Bandiera Italia"></p>
 				  
 				  <h1 class="sectionHeading__title text-white">
                   Noleggio Pali per Bandiere
@@ -204,75 +265,33 @@
       <!-- section end -->
 		
 		
-<!-- section start -->
+      <!-- section start -->
       <section class="layout-pt-md layout-pb-md bg-dark-1">
         <div class="section-filter">
 
           <!-- container start -->
           <div class="container layout-pt-sm">
-            <div class="masonry -col-2 -gap-32">
-              <div class="masonry__sizer"></div>
 
-              <div class="masonry__item  web_design">
-                <div data-anim="slide-up" class="portfolioCard -type-2 -hover">
-                  <div class="ratio">
-                    <div class="portfolioCard__img">
-                      <div class="portfolioCard__img__inner">
-                        <div class="bg-image js-lazy" data-bg="img/noleggio-pennoni-pali-per-bandiere-1.png"></div>
-                      </div>
-                    </div>
+            <div class="img-grid-2col">
 
-                   
-                  </div>
-                </div>
+              <div>
+                <img src="img/noleggio-pennoni-pali-per-bandiere-1.jpg" alt="Noleggio pennoni pali per bandiere" fetchpriority="high" decoding="sync" width="800" height="600">
               </div>
 
-              <div class="masonry__item  web_design">
-                <div data-anim="slide-up" class="portfolioCard -type-2 -hover">
-                  <div class="ratio">
-                    <div class="portfolioCard__img">
-                      <div class="portfolioCard__img__inner">
-                        <div class="bg-image js-lazy" data-bg="img/noleggio-pennoni-pali-per-bandiere-2.png"></div>
-                      </div>
-                    </div>
-
-                   
-                  </div>
-                </div>
+              <div>
+                <img src="img/noleggio-pennoni-pali-per-bandiere-2.jpg" alt="Noleggio pennoni pali per bandiere" loading="lazy" decoding="async" width="800" height="600">
               </div>
 
-             <div class="masonry__item  web_design">
-                <div data-anim="slide-up" class="portfolioCard -type-2 -hover">
-                  <div class="ratio">
-                    <div class="portfolioCard__img">
-                      <div class="portfolioCard__img__inner">
-                        <div class="bg-image js-lazy" data-bg="img/noleggio-pennoni-pali-per-bandiere-3.jpg"></div>
-                      </div>
-                    </div>
-
-                   
-                  </div>
-                </div>
+              <div>
+                <img src="img/noleggio-pennoni-pali-per-bandiere-3.jpg" alt="Noleggio pennoni pali per bandiere" loading="lazy" decoding="async" width="800" height="600">
               </div>
 
-              <div class="masonry__item  web_design">
-                <div data-anim="slide-up" class="portfolioCard -type-2 -hover">
-                  <div class="ratio">
-                    <div class="portfolioCard__img">
-                      <div class="portfolioCard__img__inner">
-                        <div class="bg-image js-lazy" data-bg="img/noleggio-pennoni-pali-per-bandiere-4.jpg"></div>
-                      </div>
-                    </div>
-
-                   
-                  </div>
-                </div>
+              <div>
+                <img src="img/noleggio-pennoni-pali-per-bandiere-4.jpg" alt="Noleggio pennoni pali per bandiere" loading="lazy" decoding="async" width="800" height="600">
               </div>
-
-             
-
 
             </div>
+
           </div>
           <!-- container end -->
 
@@ -295,9 +314,9 @@
   <!-- barba container end -->
 
 
-  <!-- JavaScript -->
-  <script src="../../js/vendors.js"></script>
-  <script src="../../js/main.js"></script>
+  <!-- JavaScript - deferred to not block rendering -->
+  <script src="../../js/vendors.js" defer></script>
+  <script src="../../js/main.js" defer></script>
 
 </body>
 

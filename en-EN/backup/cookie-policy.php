@@ -49,18 +49,9 @@
   <meta name="description" content="Gallo Aldo is leader in Italy in the field of rods, flagpoles and accessories for flag in metal or fusion. All the staff of the company offers the commitment and the experience gained in many years of business, providing the customer with fast delivery time, unprecedented quotas, utmost seriousness and availability. The Gallo Aldo guarantees the customer a high quality product, while at the same time maintaining a competitive and very competitive price. Our company enjoys the performance of numerous express courier companies, guaranteeing at the customer the delivery in 24h. Our company serves a vast network of retailers covering the entire national territory and part of the European territory.">	
 </head>
 
-<body class="preloader-visible" >
+<body  >
 
 
-  <!-- preloader start -->
-  <div class="preloader js-preloader">
-    <div class="preloader__bg"></div>
-
-    <div class="preloader__progress">
-      <div class="preloader__progress__inner"></div>
-    </div>
-  </div>
-  <!-- preloader end -->
 
 
   <!-- cursor start -->

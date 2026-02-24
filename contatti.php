@@ -55,18 +55,10 @@ input.error {
 	<?php include ("./headscript.html")?>
 </head>
 
-<body class="preloader-visible" >
+<body  >
 
 <?php include ("./bodyscript.html")?>
-  <!-- preloader start -->
-  <div class="preloader js-preloader">
-    <div class="preloader__bg"></div>
 
-    <div class="preloader__progress">
-      <div class="preloader__progress__inner"></div>
-    </div>
-  </div>
-  <!-- preloader end -->
 
 
   <!-- cursor start -->
@@ -100,17 +92,17 @@ input.error {
       <header class="header -light -sticky-light js-header">
         <!-- header__bar start -->
         <div class="header__bar">
-          <div class="header__logo js-header-logo">            <a data-barba href="./"><img class="header__logo__light js-lazy" data-srcset="./img/gallo-aldo-srl-logo.png 1x, ./img/gallo-aldo-srl-logo.png 2x" data-src="./img/gallo-aldo-srl-logo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
-            </a>            <a data-barba href="./">
+          <div class="header__logo js-header-logo">            <a data-barba href="./" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio"><img class="header__logo__light js-lazy" data-srcset="./img/gallo-aldo-srl-logo.png 1x, ./img/gallo-aldo-srl-logo.png 2x" data-src="./img/gallo-aldo-srl-logo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
+            </a>            <a data-barba href="./" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
               <img class="header__logo__dark js-lazy"data-srcset="./img/logo-white-gallo-aldo.png 1x, ./img/logo-white-gallo-aldo.png 2x" data-src="./img/logo-white-gallo-aldo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
             </a>
           </div>
 
           <div class="menustyle header__menu js-header-menu">
-            <button type="button" class="nav-button-open js-nav-open">
+            <button type="button" class="nav-button-open js-nav-open" aria-label="Apri menu">
               <i class="icon" data-feather="menu"></i>
             </button>
-			  <a href="https://www.galloaldo.com/en-EN/"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="English version"></a>  	
+			  <a href="https://www.galloaldo.com/en-EN/" aria-label="English version"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="English version"></a>  	
           </div>
         </div>
         <!-- header__bar end -->
@@ -123,11 +115,11 @@ input.error {
 
             <div class="nav__container">
               <div class="nav__header">
-                <button type="button" class="nav-button-back js-nav-back">
+                <button type="button" class="nav-button-back js-nav-back" aria-label="Chiudi menu">
                   <i class="icon" data-feather="arrow-left-circle"></i>
                 </button>
 
-                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none" aria-label="Chiudi menu">
                   <i class="icon" data-feather="x"></i>
                 </button>
               </div>
@@ -145,7 +137,7 @@ input.error {
 				<!--SWITCH LANG-->
 					<div class="nav__info__item js-navInfo-item" style="margin-top:0 !important;">
 					   <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="./en-EN/contact.php"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="English version"></a>    
+                        <a href="./en-EN/contact.php" aria-label="English version"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="English version"></a>    
                       </div>
 					   </div>
 				<!--END SWTICH LANG-->	
@@ -198,11 +190,11 @@ input.error {
 					
 					  <div class="social -bordered mt-16 md:mt-12">
 
-                    <a class="social__item text-black border-dark" href="https://www.facebook.com/galloasteperbandiere" target="_blank">
+                    <a class="social__item text-black border-dark" href="https://www.facebook.com/galloasteperbandiere" target="_blank" aria-label="Facebook">
                       <i class="fa fa-facebook"></i>
                     </a>
 
-                    <a class="social__item text-black border-dark" href="https://www.instagram.com/gallo_aldo_srl/?hl=it" target="_blank">
+                    <a class="social__item text-black border-dark" href="https://www.instagram.com/gallo_aldo_srl/?hl=it" target="_blank" aria-label="Instagram">
                       <i class="fa fa-instagram"></i>
                     </a>
 
@@ -218,16 +210,16 @@ input.error {
                   </h4>
                   <div class="text-dark mt-12">
                     <div>
-                      <a class="button -underline" href="mailto:info@galloaldo.com">info@galloaldo.com</a>
+                      <a class="button -underline" href="mailto:info@galloaldo.com" aria-label="info@galloaldo.com">info@galloaldo.com</a>
                     </div>
                     <div class="mt-4">
-						Tel <a class="button -underline" href="tel:+390308900679">+39-030.8900679</a>
+						Tel <a class="button -underline" href="tel:+390308900679" aria-label="+39-030.8900679">+39-030.8900679</a>
                     </div>
 					 <div class="mt-4">
-                      Tel <a class="button -underline" href="tel:+393312128211">+39-3312128211</a><br>(Simone Resp. Commerciale)
+                      Tel <a class="button -underline" href="tel:+393312128211" aria-label="+39-3312128211 Simone Resp. Commerciale">+39-3312128211</a><br>(Simone Resp. Commerciale)
                     </div>
 					  <div class="mt-4">
-                      <a class="button -underline" href="https://wa.me/+393487688606">+39-3487688606<br>
+                      <a class="button -underline" href="https://wa.me/+393487688606" aria-label="+39-3487688606 Ufficio (Whatsapp Chat)">+39-3487688606<br>
 Ufficio (Whatsapp Chat)</a>
                     </div>
                   </div>
@@ -239,13 +231,13 @@ Ufficio (Whatsapp Chat)</a>
                   </h4>
                   <div class="text-dark mt-12">
                     <div>
-                      <strong>Info</strong> <a class="button -underline" href="mailto:info@galloaldo.com">info@galloaldo.com</a>
+                      <strong>Info</strong> <a class="button -underline" href="mailto:info@galloaldo.com" aria-label="info@galloaldo.com">info@galloaldo.com</a>
                     </div>
                     <div class="mt-4">
-                      <strong>Ordini</strong> <a class="button -underline" href="mailto:magazzino@galloaldo.com">magazzino@galloaldo.com</a>
+                      <strong>Ordini</strong> <a class="button -underline" href="mailto:magazzino@galloaldo.com" aria-label="magazzino@galloaldo.com">magazzino@galloaldo.com</a>
                     </div>
 					 <div class="mt-4">
-                      <strong>Spedizioni</strong> <a class="button -underline" href="mailto:logistica@galloaldo.com">logistica@galloaldo.com</a>
+                      <strong>Spedizioni</strong> <a class="button -underline" href="mailto:logistica@galloaldo.com" aria-label="logistica@galloaldo.com">logistica@galloaldo.com</a>
                     </div> 
                   </div>
                 </div>
@@ -272,7 +264,7 @@ Ufficio (Whatsapp Chat)</a>
                   Inviaci la tua richiesta
                 </h2>
                 <p class="text-black leading-md mt-12">
-                  Compila il seguente form o inviaci un’email a <a href="mailto:info@galloaldo.com">info@galloaldo.com</a>.
+                  Compila il seguente form o inviaci un’email a <a href="mailto:info@galloaldo.com" aria-label="info@galloaldo.com">info@galloaldo.com</a>.
                 </p>
               </div>
             </div>
@@ -386,7 +378,7 @@ Ufficio (Whatsapp Chat)</a>
                  <div class="col-12">
           
             <label for="gdprlift"></label>
-					 <input type="checkbox" name="gdprlift" id="gdprlift" required class="css-checkbox" value="si" /><label>* Autorizzo il trattamento dei miei dati personali, ai sensi del D.lgs. 196 del 30 giugno 2003. <a href="./privacy-policy.php">Privacy Policy</a> </label>
+					 <input type="checkbox" name="gdprlift" id="gdprlift" required class="css-checkbox" value="si" /><label>* Autorizzo il trattamento dei miei dati personali, ai sensi del D.lgs. 196 del 30 giugno 2003. <a href="./privacy-policy.php" aria-label="Privacy Policy">Privacy Policy</a> </label>
 					
                   </div>
 

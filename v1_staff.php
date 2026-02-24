@@ -49,18 +49,9 @@
   <meta name="description" content="La Gallo Aldo, di Concesio (BS), è un’azienda all’avanguardia, in Italia, nella produzione di aste, pennoni ed accessori per bandiere in metallo e fusione. La serietà e la puntualità del titolare, Gallo Simone, ne fanno un’azienda competitiva sia a livello territoriale che estero, in grado di soddisfare qualsiasi esigenza del cliente, dalle linee di accessori più economiche a quelle più lussuose. Il nostro obiettivo è fornire al cliente aste e supporti per bandiere di alta qualità, Made in Italy e performanti. Tutto lo staff dell’azienda mette a disposizione l’impegno e l’esperienza maturata in molti anni di attività, offrendo al cliente rapidità nei tempi di consegna, preventivi senza impegno, massima serietà e disponibilità. La Gallo Aldo garantisce al cliente un prodotto di altissima qualità, mantenendo, allo stesso tempo, un prezzo concorrenziale e molto competitivo. La nostra azienda usufruisce delle prestazioni di numerose compagnie di corriere espresso, garantendo al cliente la consegna della merce in 24h. ">	
 </head>
 
-<body class="preloader-visible">
+<body >
 
 
-  <!-- preloader start -->
-  <div class="preloader js-preloader">
-    <div class="preloader__bg"></div>
-
-    <div class="preloader__progress">
-      <div class="preloader__progress__inner"></div>
-    </div>
-  </div>
-  <!-- preloader end -->
 
 
   <!-- cursor start -->

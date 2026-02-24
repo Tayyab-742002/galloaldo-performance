@@ -419,6 +419,7 @@
 
   <!-- JavaScript -->
   <script src="../../../js/vendors.js"></script>
+  <script src="../../../js/vendors-grid.js"></script>
   <script src="../../../js/main.js"></script>
 
 </body>

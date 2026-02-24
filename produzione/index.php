@@ -46,20 +46,12 @@
 	<?php include ("../headscript.html")?>
 </head>
 
-<body class="preloader-visible" >
+<body  >
 
 <?php include ("../bodyscript.html")?>
 
 
-  <!-- preloader start -->
-  <div class="preloader js-preloader">
-    <div class="preloader__bg"></div>
 
-    <div class="preloader__progress">
-      <div class="preloader__progress__inner"></div>
-    </div>
-  </div>
-  <!-- preloader end -->
 
 
   <!-- cursor start -->
@@ -93,18 +85,18 @@
       <header class="header -dark -sticky-dark js-header-light js-header">
         <!-- header__bar start -->
         <div class="header__bar">
-          <div class="header__logo js-header-logo">            <a data-barba href="../">
+          <div class="header__logo js-header-logo">            <a data-barba href="../" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
                <img class="header__logo__light js-lazy" data-srcset="../img/gallo-aldo-srl-logo.png 1x, ../img/gallo-aldo-srl-logo.png 2x" data-src="../img/gallo-aldo-srl-logo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
-            </a>            <a data-barba href="../">
+            </a>            <a data-barba href="../" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
               <img class="header__logo__dark js-lazy"data-srcset="../img/logo-white-gallo-aldo.png 1x, ../img/logo-white-gallo-aldo.png 2x" data-src="../img/logo-white-gallo-aldo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
             </a>
           </div>
 
           <div class="menustyle header__menu js-header-menu">
-            <button type="button" class="nav-button-open js-nav-open">
+            <button type="button" class="nav-button-open js-nav-open" aria-label="Menu">
               <i class="icon" data-feather="menu"></i>
             </button>
-			  <a href="https://www.galloaldo.com/en-EN/"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>  	
+			  <a href="https://www.galloaldo.com/en-EN/" aria-label="English"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="English"></a>  	
           </div>
         </div>
         <!-- header__bar end -->
@@ -117,11 +109,11 @@
 
             <div class="nav__container">
               <div class="nav__header">
-                <button type="button" class="nav-button-back js-nav-back">
+                <button type="button" class="nav-button-back js-nav-back" aria-label="Back">
                   <i class="icon" data-feather="arrow-left-circle"></i>
                 </button>
 
-                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none" aria-label="Close">
                   <i class="icon" data-feather="x"></i>
                 </button>
               </div>
@@ -139,7 +131,7 @@
 				<!--SWITCH LANG-->
 					<div class="nav__info__item js-navInfo-item" style="margin-top:0 !important;">
 					   <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="../en-EN/manufacture/index.php"><img src="../img/uk-flag.svg" class="mw36"></a>    
+                        <a href="../en-EN/manufacture/index.php" aria-label="English"><img src="../img/uk-flag.svg" class="mw36" alt="English"></a>    
                       </div>
 					   </div>
 				<!--END SWTICH LANG-->	
@@ -261,7 +253,7 @@
                   </p>
 
                   <div class="serviceCard__navButton navButton -md mt-24">
-                    <a href="./qualita.php" title="Il controllo qualità è un’attenta e minuziosa valutazione dei prodotti realizzati: ovvero, consiste in una serie di severi controlli sui componenti, appena fuoriusciti dalle fasi di lavorazione, eseguiti sia a livello dimensionale sia estetico. Tutto ciò avviene per mezzo dei nostri esperti, che ne verificano la conformità." class="navButton__item button -outline-white text-white">
+                    <a href="./qualita.php" aria-label="Controllo della Qualità" title="Il controllo qualità è un’attenta e minuziosa valutazione dei prodotti realizzati: ovvero, consiste in una serie di severi controlli sui componenti, appena fuoriusciti dalle fasi di lavorazione, eseguiti sia a livello dimensionale sia estetico. Tutto ciò avviene per mezzo dei nostri esperti, che ne verificano la conformità." class="navButton__item button -outline-white text-white">
                       <i data-feather="arrow-right" class="icon"></i>
                     </a>
                   </div>
@@ -282,7 +274,7 @@
                   </p>
 
                   <div class="serviceCard__navButton navButton -md mt-24">
-                    <a href="./materie-prime.php" title="Gallo Aldo Brescia aste per bandiere da interno in alluminio anodizzato argento oppure oro, ferro e ottone cromato o lucidato oro, personalizzabili con velluto da parata, e disponibili in diverse lunghezze e vari diametri" class="navButton__item button -outline-white text-white">
+                    <a href="./materie-prime.php" aria-label="Scelta delle Materie Prime" title="Gallo Aldo Brescia aste per bandiere da interno in alluminio anodizzato argento oppure oro, ferro e ottone cromato o lucidato oro, personalizzabili con velluto da parata, e disponibili in diverse lunghezze e vari diametri" class="navButton__item button -outline-white text-white">
                       <i data-feather="arrow-right" class="icon"></i>
                     </a>
                   </div>
@@ -302,7 +294,7 @@
                   </p>
 
                   <div class="serviceCard__navButton navButton -md mt-24">
-                    <a href="./stampaggio-metalli-e-fusioni.php" title="Gallo Aldo Brescia aste per bandiere da interno in alluminio anodizzato argento oppure oro, ferro e ottone cromato o lucidato oro, personalizzabili con velluto da parata, e disponibili in diverse lunghezze e vari diametri" class="navButton__item button -outline-white text-white">
+                    <a href="./stampaggio-metalli-e-fusioni.php" aria-label="Fusione Metalli e Stampaggio" title="Gallo Aldo Brescia aste per bandiere da interno in alluminio anodizzato argento oppure oro, ferro e ottone cromato o lucidato oro, personalizzabili con velluto da parata, e disponibili in diverse lunghezze e vari diametri" class="navButton__item button -outline-white text-white">
                       <i data-feather="arrow-right" class="icon"></i>
                     </a>
                   </div>
@@ -323,7 +315,7 @@
                   </p>
 
                   <div class="serviceCard__navButton navButton -md mt-24">
-                    <a href="./lavorazioni-articoli-in-lastra-di-ottone.php" title="Gallo Aldo Brescia aste per bandiere. Le nostre aste per bandiere specifiche per l'ambito militare sono realizzate e prodotte seguendo le specifiche del capitolato dell'esercito italiano." class="navButton__item button -outline-white text-white">
+                    <a href="./lavorazioni-articoli-in-lastra-di-ottone.php" aria-label="Lavorazioni in Lastra di Ottone" title="Gallo Aldo Brescia aste per bandiere. Le nostre aste per bandiere specifiche per l'ambito militare sono realizzate e prodotte seguendo le specifiche del capitolato dell'esercito italiano." class="navButton__item button -outline-white text-white">
                       <i data-feather="arrow-right" class="icon"></i>
                     </a>
                   </div>
@@ -342,7 +334,7 @@
                   </p>
 
                   <div class="serviceCard__navButton navButton -md mt-24">
-                    <a href="./stampaggio-a-caldo-e-tornitura.php" title="Gallo Aldo Brescia aste per bandiere. Le nostre aste per bandiere specifiche per l'ambito militare sono realizzate e prodotte seguendo le specifiche del capitolato dell'esercito italiano." class="navButton__item button -outline-white text-white">
+                    <a href="./stampaggio-a-caldo-e-tornitura.php" aria-label="Stampaggio a caldo e Tornitura" title="Gallo Aldo Brescia aste per bandiere. Le nostre aste per bandiere specifiche per l'ambito militare sono realizzate e prodotte seguendo le specifiche del capitolato dell'esercito italiano." class="navButton__item button -outline-white text-white">
                       <i data-feather="arrow-right" class="icon"></i>
                     </a>
                   </div>
@@ -361,7 +353,7 @@
                   </p>
 
                   <div class="serviceCard__navButton navButton -md mt-24">
-                    <a href="./finiture.php" title="Gallo Aldo Brescia aste per bandiere. Una vasta scelta di aste cromate per bandiere da applicare su automobili e motociclette, con attacco a magnete o agganciabile al finestrino dell’auto. Astine in plastica per autovetture" class="navButton__item button -outline-white text-white">
+                    <a href="./finiture.php" aria-label="Lavorazioni e Finiture" title="Gallo Aldo Brescia aste per bandiere. Una vasta scelta di aste cromate per bandiere da applicare su automobili e motociclette, con attacco a magnete o agganciabile al finestrino dell’auto. Astine in plastica per autovetture" class="navButton__item button -outline-white text-white">
                       <i data-feather="arrow-right" class="icon"></i>
                     </a>
                   </div>
@@ -380,7 +372,7 @@
                   </p>
 
                   <div class="serviceCard__navButton navButton -md mt-24">
-                    <a href="./spedizioni.php" title="Gallo Aldo Brescia aste per bandiere. Una vasta scelta di aste cromate per bandiere da applicare su automobili e motociclette, con attacco a magnete o agganciabile al finestrino dell’auto. Astine in plastica per autovetture" class="navButton__item button -outline-white text-white">
+                    <a href="./spedizioni.php" aria-label="Spedizioni e Imballaggi" title="Gallo Aldo Brescia aste per bandiere. Una vasta scelta di aste cromate per bandiere da applicare su automobili e motociclette, con attacco a magnete o agganciabile al finestrino dell’auto. Astine in plastica per autovetture" class="navButton__item button -outline-white text-white">
                       <i data-feather="arrow-right" class="icon"></i>
                     </a>
                   </div>

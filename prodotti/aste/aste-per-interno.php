@@ -16,16 +16,10 @@
 
   <!-- Required meta tags -->
   <meta charset="UTF-8">
+  <?php include_once $_SERVER['DOCUMENT_ROOT'].'/head-perf.php'; ?>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="../../css/vendors.css">
-  <link rel="stylesheet" href="../../css/main.css">
-<link rel="stylesheet" href="../../wh/venom-button.css">
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="57x57" href="../../img/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="../../img/favicon/apple-icon-60x60.png">
@@ -50,20 +44,12 @@
 	<?php include ("../../headscript.html")?>
 </head>
 
-<body class="preloader-visible" >
+<body>
 
 <?php include ("../../bodyscript.html")?>
 
 
-  <!-- preloader start -->
-  <div class="preloader js-preloader">
-    <div class="preloader__bg"></div>
 
-    <div class="preloader__progress">
-      <div class="preloader__progress__inner"></div>
-    </div>
-  </div>
-  <!-- preloader end -->
 
 
   <!-- cursor start -->
@@ -105,10 +91,10 @@
           </div>
 
           <div class="menustyle header__menu js-header-menu">
-            <button type="button" class="nav-button-open js-nav-open">
-              <i class="icon" data-feather="menu"></i>
+            <button type="button" class="nav-button-open js-nav-open" aria-label="Apri menu">
+              <i class="icon" data-feather="menu" aria-hidden="true"></i>
             </button>
-			  <a href="https://www.galloaldo.com/en-EN/"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>  	
+			  <a href="https://www.galloaldo.com/en-EN/" aria-label="Switch to English version"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="English"></a>  	
           </div>
         </div>
         <!-- header__bar end -->
@@ -121,12 +107,12 @@
 
             <div class="nav__container">
               <div class="nav__header">
-                <button type="button" class="nav-button-back js-nav-back">
-                  <i class="icon" data-feather="arrow-left-circle"></i>
+                <button type="button" class="nav-button-back js-nav-back" aria-label="Torna indietro">
+                  <i class="icon" data-feather="arrow-left-circle" aria-hidden="true"></i>
                 </button>
 
-                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
-                  <i class="icon" data-feather="x"></i>
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none" aria-label="Chiudi menu">
+                  <i class="icon" data-feather="x" aria-hidden="true"></i>
                 </button>
               </div>
 
@@ -143,7 +129,7 @@
 				<!--SWITCH LANG-->
 					<div class="nav__info__item js-navInfo-item" style="margin-top:0 !important;">
 					   <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="../../en-EN/products/flagpoles/indoor-flagpoles.php"><img src="../../img/uk-flag.svg" class="mw36"></a>    
+                        <a href="../../en-EN/products/flagpoles/indoor-flagpoles.php" aria-label="Switch to English version"><img src="../../img/uk-flag.svg" class="mw36" alt="English"></a>    
                       </div>
 					   </div>
 				<!--END SWTICH LANG-->	
@@ -189,7 +175,7 @@
 
               <div class="sectionHeading -lg">
                 
-				  <p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+				  <p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Bandiera Italiana"></p>
 				  
 				  <h1 class="sectionHeading__title">
                   Aste per Bandiere e<br>Gonfalone da Interno
@@ -692,8 +678,9 @@
 
 
   <!-- JavaScript -->
-  <script src="../../js/vendors.js"></script>
-  <script src="../../js/main.js"></script>
+  <script src="../../js/vendors.js" defer></script>
+  <script src="../../js/vendors-grid.js" defer></script>
+  <script src="../../js/main.js" defer></script>
 
 </body>
 

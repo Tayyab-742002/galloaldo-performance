@@ -38,24 +38,18 @@
   <meta name="theme-color" content="#ffffff">
 
   <title>Installazione pennoni per bandiere in tutta Italia 2024.</title>
-  <meta name="description" content="Ecco una panoramica delle installazioni di pennoni per bandiere organizzata da Gallo Aldo in tutta Italia, accedi e scopri il catalogo più fornito d'Italia">	
+  <meta name="description" content="Ecco una panoramica delle installazioni di pennoni per bandiere organizzata da Gallo Aldo in tutta Italia, accedi e scopri il catalogo più fornito d'Italia">
+  <!-- LCP preload: first above-the-fold gallery image -->
+  <link rel="preload" as="image" href="./img/installazioni/2024/1.JPG" fetchpriority="high">
 	<?php include ("./headscript.html")?>
 </head>
 
-<body class="preloader-visible" >
+<body  >
 
 <?php include ("./bodyscript.html")?>
 
 
-  <!-- preloader start -->
-  <div class="preloader js-preloader">
-    <div class="preloader__bg"></div>
 
-    <div class="preloader__progress">
-      <div class="preloader__progress__inner"></div>
-    </div>
-  </div>
-  <!-- preloader end -->
 
 
   <!-- cursor start -->
@@ -89,8 +83,8 @@
       <header class="header -light -sticky-light js-header">
         <!-- header__bar start -->
         <div class="header__bar">
-          <div class="header__logo js-header-logo">            <a data-barba href="./"><img class="header__logo__light js-lazy" data-srcset="./img/gallo-aldo-srl-logo.png 1x, ./img/gallo-aldo-srl-logo.png 2x" data-src="./img/gallo-aldo-srl-logo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
-            </a>            <a data-barba href="./">
+          <div class="header__logo js-header-logo">            <a data-barba href="./" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio"><img class="header__logo__light js-lazy" data-srcset="./img/gallo-aldo-srl-logo.png 1x, ./img/gallo-aldo-srl-logo.png 2x" data-src="./img/gallo-aldo-srl-logo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
+            </a>            <a data-barba href="./" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
               <img class="header__logo__dark js-lazy"data-srcset="./img/logo-white-gallo-aldo.png 1x, ./img/logo-white-gallo-aldo.png 2x" data-src="./img/logo-white-gallo-aldo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
             </a>
           </div>
@@ -99,7 +93,7 @@
             <button type="button" class="nav-button-open js-nav-open" aria-label="Apri menu di navigazione">
               <i class="icon" data-feather="menu"></i>
             </button>
-			  <a href="https://www.galloaldo.com/en-EN/"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="English version"></a>  	
+			  <a href="https://www.galloaldo.com/en-EN/" aria-label="English version"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="English version"></a>  	
           </div>
         </div>
         <!-- header__bar end -->
@@ -134,7 +128,7 @@
 				<!--SWITCH LANG-->
 					<div class="nav__info__item js-navInfo-item" style="margin-top:0 !important;">
 					   <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="./en-EN/installations.php"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>    
+                        <a href="./en-EN/installations.php" aria-label="English version"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="English version"></a>    
                       </div>
 					   </div>
 				<!--END SWTICH LANG-->	
@@ -181,10 +175,10 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
           <!-- foto pennoni  polmetal-->
         
           <div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/1.JPG">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/1.JPG" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
-                  <div class="ratio ratio-16:9 bg-image js-lazy" data-bg="./img/installazioni/2024/1.JPG">
+                  <div class="ratio ratio-16:9 bg-image" style="background-image:url('./img/installazioni/2024/1.JPG')">
                 </div> <em> Pennoni per bandiere PolMetal, commercio Metalli Brescia</em>
                 </div>
               </div>
@@ -194,7 +188,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/2.JPG">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/2.JPG" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-16:9 bg-image js-lazy" data-bg="./img/installazioni/2024/2.JPG">
@@ -206,7 +200,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
             </a>
           </div>
                   <div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/3.JPG">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/3.JPG" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-16:9 bg-image js-lazy" data-bg="./img/installazioni/2024/3.JPG">
@@ -219,7 +213,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/4.JPG">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/4.JPG" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-16:9 bg-image js-lazy" data-bg="./img/installazioni/2024/4.JPG">
@@ -231,7 +225,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
             </a>
           </div>
             <div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/5.JPG">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/5.JPG" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-16:9 bg-image js-lazy" data-bg="./img/installazioni/2024/5.JPG">
@@ -244,7 +238,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/6.JPG">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/6.JPG" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-16:9 bg-image js-lazy" data-bg="./img/installazioni/2024/6.JPG">
@@ -269,7 +263,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/8.JPG">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/8.JPG" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-16:9 bg-image js-lazy" data-bg="./img/installazioni/2024/8.JPG">
@@ -283,7 +277,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
             <!-- foto pennoni  saottini-->
             
                   <div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/saottini-pennoni-con-bandiere1.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/saottini-pennoni-con-bandiere1.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-16:9 bg-image js-lazy" data-bg="./img/installazioni/2024/saottini-pennoni-con-bandiere1.jpg">
@@ -296,7 +290,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/saottini-pennoni-con-bandiere2.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/saottini-pennoni-con-bandiere2.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-16:9 bg-image js-lazy" data-bg="./img/installazioni/2024/saottini-pennoni-con-bandiere2.jpg">
@@ -321,7 +315,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/saottini-pennoni-con-bandiere4.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/saottini-pennoni-con-bandiere4.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-16:9 bg-image js-lazy" data-bg="./img/installazioni/2024/saottini-pennoni-con-bandiere4.jpg">
@@ -335,7 +329,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
         <!-- foto pennoni -->
 
           <div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/001pennoni-per-bandiera-cucine-scavolini.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/001pennoni-per-bandiera-cucine-scavolini.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-16:9 bg-image js-lazy" data-bg="./img/installazioni/2024/001pennoni-per-bandiera-cucine-scavolini.jpg">
@@ -348,7 +342,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/002pennoni-per-bandiera-scavolini.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/002pennoni-per-bandiera-scavolini.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-16:9 bg-image js-lazy" data-bg="./img/installazioni/2024/002pennoni-per-bandiera-scavolini.jpg">
@@ -375,7 +369,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
 			
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/004pennoni-per-bandiere-italia-europa-germania.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/004pennoni-per-bandiere-italia-europa-germania.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="./img/installazioni/2024/004pennoni-per-bandiere-italia-europa-germania.jpg"></div>
@@ -389,7 +383,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
 			
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/004desenzano-panorama-drone.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/004desenzano-panorama-drone.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="./img/installazioni/2024/004desenzano-panorama-drone.jpg"></div>
@@ -402,7 +396,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/005pennone-bandiera-desenzano.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/005pennone-bandiera-desenzano.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="./img/installazioni/2024/005pennone-bandiera-desenzano.jpg"></div>
@@ -414,7 +408,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/006pennone-per-bandiera.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/006pennone-per-bandiera.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="./img/installazioni/2024/006pennone-per-bandiera.jpg"></div>
@@ -438,7 +432,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/008aste-per-bandiere-fissando-un-pennone.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/008aste-per-bandiere-fissando-un-pennone.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="./img/installazioni/2024/008aste-per-bandiere-fissando-un-pennone.jpg"></div>
@@ -450,7 +444,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/009pennoni.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/009pennoni.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="./img/installazioni/2024/009pennoni.jpg"></div>
@@ -463,7 +457,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
 			
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/010aste-per-bandiere-basi-terra.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/010aste-per-bandiere-basi-terra.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="./img/installazioni/2024/010aste-per-bandiere-basi-terra.jpg"></div>
@@ -475,7 +469,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/011installazione-pennoni-per-bandiere-desenzano.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/011installazione-pennoni-per-bandiere-desenzano.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="./img/installazioni/2024/011installazione-pennoni-per-bandiere-desenzano.jpg"></div>
@@ -487,7 +481,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
           </div>
 			
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/012aste-per-bandiere.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/012aste-per-bandiere.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="./img/installazioni/2024/012aste-per-bandiere.jpg"></div>
@@ -500,7 +494,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
 			
 
           <div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/013pennoni-per-bandiere-desenzano-6.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/013pennoni-per-bandiere-desenzano-6.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="./img/installazioni/2024/013pennoni-per-bandiere-desenzano-6.jpg"></div>
@@ -511,7 +505,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/014pennoni-per-bandiere-desenzano.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/014pennoni-per-bandiere-desenzano.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="./img/installazioni/2024/014pennoni-per-bandiere-desenzano.jpg"></div>
@@ -522,7 +516,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/015pennoni-per-bandiere-desenzano2.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/015pennoni-per-bandiere-desenzano2.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="./img/installazioni/2024/015pennoni-per-bandiere-desenzano2.jpg"></div>
@@ -533,7 +527,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/016pennoni-per-bandiere-desenzano3.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/016pennoni-per-bandiere-desenzano3.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="./img/installazioni/2024/016pennoni-per-bandiere-desenzano3.jpg"></div>
@@ -544,7 +538,7 @@ Installazione pennoni per bandiere in tutta Italia 2024             </h1>
             </a>
           </div>
 			<div class="fancy-grid__item">
-            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/017pennoni-per-bandiere-desenzano4.jpg">
+            <a data-cursor-icon="arrow-right" data-anim-wrap data-gallery="installazioni" class="glightbox" href="./img/installazioni/2024/017pennoni-per-bandiere-desenzano4.jpg" aria-label="Aste per bandiere Saottini Auto a Desenzano (Brescia)">
               <div class="portfolioCard__img">
                 <div class="portfolioCard__img__inner">
                   <div class="ratio ratio-4:3 bg-image js-lazy" data-bg="./img/installazioni/2024/017pennoni-per-bandiere-desenzano4.jpg"></div>

@@ -46,20 +46,12 @@
   <link rel="preload" as="image" fetchpriority="high" href="./img/installazioni/gallo-aldo-aste-accessori-per-bandiere-pic15.jpg">
 </head>
 
-<body class="preloader-visible" >
+<body  >
 
 <?php include ("./bodyscript.html")?>
 
 
-  <!-- preloader start -->
-  <div class="preloader js-preloader">
-    <div class="preloader__bg"></div>
 
-    <div class="preloader__progress">
-      <div class="preloader__progress__inner"></div>
-    </div>
-  </div>
-  <!-- preloader end -->
 
 
   <!-- cursor start -->

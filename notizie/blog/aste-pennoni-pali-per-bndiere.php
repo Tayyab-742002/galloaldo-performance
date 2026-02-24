@@ -39,7 +39,8 @@
 
     <title>Aste, pennoni e pali per bandiere, scopri la differenza!(21/05/2024).</title>
    <meta name="description" content="Le aste per bandiere vengono spesso definite pali e a volte pennoni. Scopriamo quali sono le differenze nei materiali e dimensioni. Accedi alla nostra news">	
-   
+  <!-- LCP preload: hero background image -->
+  <link rel="preload" as="image" href="aste-per-bandiere-gallo-aldo.jpg" fetchpriority="high">
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Aste, pennoni e pali per bandiere, scopri la differenza!(21/05/2024)" />
 <meta property="og:image" content="https://www.galloaldo.com/notizie/blog/aste-per-bandiere-gallo-aldo.jpg" />
@@ -49,20 +50,12 @@
 	<?php include ("../../headscript.html")?>
 </head>
 
-<body class="preloader-visible" >
+<body  >
 
 <?php include ("../../bodyscript.html")?>
 
 
-  <!-- preloader start -->
-  <div class="preloader js-preloader">
-    <div class="preloader__bg"></div>
 
-    <div class="preloader__progress">
-      <div class="preloader__progress__inner"></div>
-    </div>
-  </div>
-  <!-- preloader end -->
 
 
   <!-- cursor start -->
@@ -96,18 +89,18 @@
       <header class="header -light -sticky-light js-header" style="background: #FFFFFF">
       <!-- header__bar start -->
         <div class="header__bar">
-          <div class="header__logo js-header-logo"> <a data-barba href="../../" title="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
+          <div class="header__logo js-header-logo"> <a data-barba href="../../" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio" title="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
               <img class="header__logo__light js-lazy" data-srcset="../../img/gallo-aldo-srl-logo.png 1x, ../../img/gallo-aldo-srl-logo.png 2x" data-src="../../img/gallo-aldo-srl-logo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
-            </a>            <a data-barba href="../../">
+            </a>            <a data-barba href="../../" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio" title="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
               <img class="header__logo__dark js-lazy"data-srcset="../../img/logo-white-gallo-aldo.png 1x, ../../img/logo-white-gallo-aldo.png 2x" data-src="../../img/logo-white-gallo-aldo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
             </a>
           </div>
 
           <div class="menustyle header__menu js-header-menu">
-            <button type="button" class="nav-button-open js-nav-open">
+            <button type="button" class="nav-button-open js-nav-open" aria-label="Apri menu" title="Apri menu">
               <i class="icon" data-feather="menu"></i>
             </button>
-			  <a href="https://www.galloaldo.com/en-EN/"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>  	
+			  <a href="https://www.galloaldo.com/en-EN/" aria-label="Cambia lingua in inglese" title="Cambia lingua in inglese"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="Cambia lingua in inglese"></a>  	
           </div>
         </div>
         <!-- header__bar end -->
@@ -120,11 +113,11 @@
 
             <div class="nav__container">
               <div class="nav__header">
-                <button type="button" class="nav-button-back js-nav-back">
+                <button type="button" class="nav-button-back js-nav-back" aria-label="Torna alla pagina precedente" title="Torna alla pagina precedente">
                   <i class="icon" data-feather="arrow-left-circle"></i>
                 </button>
 
-                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none" aria-label="Chiudi menu" title="Chiudi menu">
                   <i class="icon" data-feather="x"></i>
                 </button>
               </div>
@@ -142,7 +135,7 @@
 				<!--SWITCH LANG-->
 					<div class="nav__info__item js-navInfo-item" style="margin-top:0 !important;">
 					   <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="../../en-EN/products/flying-banners/index.php"><img src="../../img/uk-flag.svg" class="mw36"></a>    
+                        <a href="../../en-EN/products/flying-banners/index.php" aria-label="Switch language to English" title="Switch language to English"><img src="../../img/uk-flag.svg" class="mw36" alt="Switch language to English"></a>    
                       </div>
 					   </div>
 				<!--END SWTICH LANG-->	
@@ -158,7 +151,7 @@
 <!--Load top banner-->
  <!-- section start -->
       <section data-parallax="0.7" class="layout-pt-xl layout-pb-lg">
-        <div data-parallax-target class="overlay-black-md bg-image js-lazy" data-bg="aste-per-bandiere-gallo-aldo.jpg"></div>
+        <div data-parallax-target class="overlay-black-md bg-image" style="background-image:url('aste-per-bandiere-gallo-aldo.jpg')"></div>
 
         <!-- container start -->
         <div class="container z-5">
@@ -177,7 +170,7 @@
                 Cosa si intende per aste per bandiere? Pali per bandiere o pennoni, ecco il tutorial.
               </p>
 
-              <a href="https://www.galloaldo.com/richiedi-catalogo.php" title="Richiedi il Catalogo aste e accessori per bandiere" class="button -md -white text-black mt-32">
+              <a href="https://www.galloaldo.com/richiedi-catalogo.php" aria-label="Richiedi il Catalogo aste e accessori per bandiere" title="Richiedi il Catalogo aste e accessori per bandiere" class="button -md -white text-black mt-32">
                Richiedi il Catalogo
               </a>
             </div>
@@ -197,7 +190,7 @@
           <div class="row">
             <div class="col-xl-7 col-lg-8">
               <ul class="breadcrumbs text-black mb-40">
-                <li class="breadcrumbs-item">   <a data-barba href="../../">
+                <li class="breadcrumbs-item">   <a data-barba href="../../" aria-label="Home" title="Home">
                     Home
                   </a>
                 </li>
@@ -214,7 +207,7 @@
 
               <div class="sectionHeading -lg">
                 
-				  <p><img src="../../img/italy_flag.svg" style="width: 200px"></p>
+				  <p><img src="../../img/italy_flag.svg" style="width: 200px" alt="Bandiera Italiana"></p>
 				  
 				  <h1 class="sectionHeading__title">
                  Aste, pali e pennoni per bandiere, scopriamo le caratteristiche.
@@ -237,7 +230,7 @@ Infine le aste in alluminio garantiscono un'ottima tenuta in ambienti esterni.
 ●	Materiali: I pennoni sono comunemente fatti di alluminio, acciaio o fibra di vetro, materiali che offrono robustezza e durabilità.<br> 
 ●	Altezza: I pennoni sono progettati per esporre bandiere a grandi altezze, spesso variando dai 6 ai 10 metri o più.<br> 
 ●	Sistema di sollevamento: Molti pennoni sono dotati di sistemi di sollevamento manuali o motorizzati, interni o esterni, che permettono di alzare e abbassare la bandiera con facilità. Alcuni vengono anche dotati di "bracci" per garantire che la bandiera rimanga sempre in massima esposizione.<br> <br> 
-<strong>Utilizzi</strong>: I <a href="https://www.galloaldo.com/prodotti/pennoni-e-accessori/index.php" title="pennoni per bandiere"><span style="color:red;text-decoration:underline;">pennoni per bandiere</span></a> sono ideali per esporre bandiere in modo permanente in luoghi pubblici, come edifici governativi, scuole, aziende e parchi. 
+<strong>Utilizzi</strong>: I <a href="https://www.galloaldo.com/prodotti/pennoni-e-accessori/index.php" aria-label="Pennoni per bandiere" title="Pennoni per bandiere"><span style="color:red;text-decoration:underline;">pennoni per bandiere</span></a> sono ideali per esporre bandiere in modo permanente in luoghi pubblici, come edifici governativi, scuole, aziende e parchi. 
 <br>La loro altezza li rende visibili da grandi distanze, conferendo solennità e importanza alla bandiera esposta.
 <br>Rispetto alla fibra di vetro, l'alluminio garantisce scalabilità, flessibilità e maneggevolezza del prodotto.
 <br>
@@ -256,7 +249,7 @@ Infine le aste in alluminio garantiscono un'ottima tenuta in ambienti esterni.
 La scelta tra aste, pennoni e pali per bandiere dipende dalle tue esigenze specifiche in termini di altezza, visibilità, stabilità e facilità d'uso. <br> 
 Per maggiori informazioni sui nostri prodotti e per ricevere consigli personalizzati, richiedici il catalogo o contattaci tramite il form. <br>
 Siamo qui per aiutarti a trovare la soluzione perfetta per esporre la tua bandiera con orgoglio e stile.<br> 
-Qui trovi il nostro catalogo aste completo: <a href="https://asteperbandiere.com/">https://asteperbandiere.com/</a><br>
+Qui trovi il nostro catalogo aste completo: <a href="https://asteperbandiere.com/" aria-label="Aste per bandiere" title="Aste per bandiere">https://asteperbandiere.com/</a><br>
 Abbiamo diversi siti, uno per ogni argomento trattato.<br />
                </p>
             
@@ -268,7 +261,7 @@ Abbiamo diversi siti, uno per ogni argomento trattato.<br />
               <div class="swiper-slide slider-slide">
                 <div data-anim="slide-up delay-1" class="portfolioCard -type-2 -hover">
                   <div class="portfolioCard__img">
-                <a data-gallery="gallery1" class="glightbox" href="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic1.jpg">
+                <a data-gallery="gallery1" class="glightbox" href="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic1.jpg" aria-label="Installazione asta portabandiera" title="Installazione asta portabandiera">
 					  <div class="portfolioCard__img__inner">
                       <div class="ratio ratio-2:3 bg-image swiper-lazy" data-background="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic1.jpg"></div>
                     </div></a>
@@ -279,7 +272,7 @@ Abbiamo diversi siti, uno per ogni argomento trattato.<br />
              <div class="swiper-slide slider-slide">
                 <div data-anim="slide-up delay-1" class="portfolioCard -type-2 -hover">
                   <div class="portfolioCard__img">
-                <a data-gallery="gallery1" class="glightbox" href="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic2.jpg">
+                <a data-gallery="gallery1" class="glightbox" href="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic2.jpg" aria-label="Installazione asta portabandiera" title="Installazione asta portabandiera">
 					  <div class="portfolioCard__img__inner">
                       <div class="ratio ratio-2:3 bg-image swiper-lazy" data-background="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic2.jpg"></div>
                     </div></a>
@@ -301,7 +294,7 @@ Abbiamo diversi siti, uno per ogni argomento trattato.<br />
               <div class="swiper-slide slider-slide">
                 <div data-anim="slide-up delay-1" class="portfolioCard -type-2 -hover">
                   <div class="portfolioCard__img">
-                <a data-gallery="gallery1" class="glightbox" href="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic4.jpg">
+                <a data-gallery="gallery1" class="glightbox" href="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic4.jpg" aria-label="Installazione asta portabandiera" title="Installazione asta portabandiera">
 					  <div class="portfolioCard__img__inner">
                       <div class="ratio ratio-2:3 bg-image swiper-lazy" data-background="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic4.jpg"></div>
                     </div></a>
@@ -312,7 +305,7 @@ Abbiamo diversi siti, uno per ogni argomento trattato.<br />
               <div class="swiper-slide slider-slide">
                 <div data-anim="slide-up delay-1" class="portfolioCard -type-2 -hover">
                   <div class="portfolioCard__img">
-                <a data-gallery="gallery1" class="glightbox" href="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic5.jpg">
+                <a data-gallery="gallery1" class="glightbox" href="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic5.jpg" aria-label="Installazione asta portabandiera" title="Installazione asta portabandiera">
 					  <div class="portfolioCard__img__inner">
                       <div class="ratio ratio-2:3 bg-image swiper-lazy" data-background="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic5.jpg"></div>
                     </div></a>
@@ -323,7 +316,7 @@ Abbiamo diversi siti, uno per ogni argomento trattato.<br />
              <div class="swiper-slide slider-slide">
                 <div data-anim="slide-up delay-1" class="portfolioCard -type-2 -hover">
                   <div class="portfolioCard__img">
-                <a data-gallery="gallery1" class="glightbox" href="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic6.jpg">
+                <a data-gallery="gallery1" class="glightbox" href="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic6.jpg" aria-label="Installazione asta portabandiera" title="Installazione asta portabandiera">
 					  <div class="portfolioCard__img__inner">
                       <div class="ratio ratio-2:3 bg-image swiper-lazy" data-background="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic6.jpg"></div>
                     </div></a>
@@ -334,7 +327,7 @@ Abbiamo diversi siti, uno per ogni argomento trattato.<br />
 				<div class="swiper-slide slider-slide">
                 <div data-anim="slide-up delay-1" class="portfolioCard -type-2 -hover">
                   <div class="portfolioCard__img">
-                <a data-gallery="gallery1" class="glightbox" href="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic7.jpg">
+                <a data-gallery="gallery1" class="glightbox" href="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic7.jpg" aria-label="Installazione asta portabandiera" title="Installazione asta portabandiera">
 					  <div class="portfolioCard__img__inner">
                       <div class="ratio ratio-2:3 bg-image swiper-lazy" data-background="../../img/home-installazioni/aldo-gallo-accessori-per-bandiere-brescia-pic7.jpg"></div>
                     </div></a>
@@ -369,7 +362,7 @@ Abbiamo diversi siti, uno per ogni argomento trattato.<br />
               
 
               <div class="col-auto">
-                 <a class="button -md -outline-black text-black" href="../../richiedi-catalogo.php" title="Le lance e gli emblemi per aste portabandiera a catalogo sono tutti in fusione di ottine sono rifiniti con cura">
+                 <a class="button -md -outline-black text-black" href="../../richiedi-catalogo.php" aria-label="Le lance e gli emblemi per aste portabandiera a catalogo sono tutti in fusione di ottine sono rifiniti con cura" title="Le lance e gli emblemi per aste portabandiera a catalogo sono tutti in fusione di ottine sono rifiniti con cura">
                   Richiedi il Catalogo
                 </a>
                 </a>
@@ -408,6 +401,7 @@ Abbiamo diversi siti, uno per ogni argomento trattato.<br />
 
   <!-- JavaScript -->
   <script src="../../js/vendors.js"></script>
+  <script src="../../js/vendors-grid.js"></script>
   <script src="../../js/main.js"></script>
 
 </body>

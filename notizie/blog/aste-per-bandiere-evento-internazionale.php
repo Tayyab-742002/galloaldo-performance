@@ -39,7 +39,8 @@
 
     <title>Le nostre aste per bandiere al Wine Ministerial Meeting (aprile 2024).</title>
    <meta name="description" content="Le aste di Gallo Aldo esposte al Wine Ministerial Meeting, la popolarità di Gallo Aldo è oggi internazionale.">	
-   
+  <!-- LCP preload: hero background image -->
+  <link rel="preload" as="image" href="aste-per-bandiere.jpg" fetchpriority="high">
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Le nostre aste per bandiere al Wine Ministerial Meeting (aprile 2024)." />
 <meta property="og:image" content="https://www.galloaldo.com/notizie/blog/aste-per-bandiere-evento-internazionale-2024.jpg" />
@@ -150,7 +151,7 @@
 <!--Load top banner-->
  <!-- section start -->
       <section data-parallax="0.7" class="layout-pt-xl layout-pb-lg">
-        <div data-parallax-target class="overlay-black-md bg-image js-lazy" data-bg="aste-per-bandiere.jpg"></div>
+        <div data-parallax-target class="overlay-black-md bg-image" style="background-image:url('aste-per-bandiere.jpg')"></div>
 
         <!-- container start -->
         <div class="container z-5">

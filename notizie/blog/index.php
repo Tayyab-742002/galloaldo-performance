@@ -38,7 +38,9 @@
   <meta name="theme-color" content="#ffffff">
 
     <title>Accessori per bandiere, Gallo Aldo 20 made in Italy</title>
-   <meta name="description" content="Accessori per bandiere? La risposta sicura è Gallo Aldo: tradizione, innovazione, made in Italy. L'azienda installa aste per bandiere in tutta Italia Accedi">	
+   <meta name="description" content="Accessori per bandiere? La risposta sicura è Gallo Aldo: tradizione, innovazione, made in Italy. L'azienda installa aste per bandiere in tutta Italia Accedi">
+  <!-- LCP preload: hero background image -->
+  <link rel="preload" as="image" href="img/accessori-ricambi-main-pic.jpg" fetchpriority="high">
 	<?php include ("../../headscript.html")?>
 </head>
 
@@ -178,7 +180,7 @@
 
             <div class="col-xl-5 offset-xl-1 col-lg-6 offset-lg-1 z-1">
               <div data-parallax="0.7" class="masthead__img overflow-hidden h-100vh ml-minus-sm md:ml-0">
-                <div data-parallax-target class="bg-image js-lazy js-image" data-bg="img/accessori-ricambi-main-pic.jpg"></div>
+                <div data-parallax-target class="bg-image js-image" style="background-image:url('img/accessori-ricambi-main-pic.jpg')"></div>
                 <div class="masthead__img__cover js-image-cover"></div>
               </div>
             </div>

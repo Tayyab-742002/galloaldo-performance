@@ -39,7 +39,8 @@
 
     <title>Asta bandiere? Conoscere per scegliere (17 maggio 2024).</title>
    <meta name="description" content="Asta bandiere? Scegli l'asta che fa al caso tuo, plastica o alluminio, tu scegli, noi ti consigliamo!">	
-   
+  <!-- LCP preload: hero background image -->
+  <link rel="preload" as="image" href="asta-bandiere.jpg" fetchpriority="high">
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Le nostre aste per bandiere al Wine Ministerial Meeting (aprile 2024)." />
 <meta property="og:image" content="https://www.galloaldo.com/notizie/blog/asta-bandiere-scegliere-materiali.jpg" />
@@ -150,7 +151,7 @@
 <!--Load top banner-->
  <!-- section start -->
       <section data-parallax="0.7" class="layout-pt-xl layout-pb-lg">
-        <div data-parallax-target class="overlay-black-md bg-image js-lazy" data-bg="asta-bandiere.jpg"></div>
+        <div data-parallax-target class="overlay-black-md bg-image" style="background-image:url('asta-bandiere.jpg')"></div>
 
         <!-- container start -->
         <div class="container z-5">

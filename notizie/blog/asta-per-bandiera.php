@@ -39,6 +39,8 @@
 
     <title>Asta per bandiera? Scopri la qualità di Gallo Aldo (24 maggio 2024).</title>
    <meta name="description" content="Asta per bandiera in alluminio anodizzato con carrucola e bitta, articolo 227 Si tratta di un'asta per bandiere da 400 cm disponibile con ganci o carrucola">	
+  <!-- LCP preload: hero background image -->
+  <link rel="preload" as="image" href="asta-per-bandiera.jpg" fetchpriority="high">
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Asta per bandiera? Scopri la qualità di Gallo Aldo." />
 <meta property="og:image" content="https://www.galloaldo.com/notizie/blog/asta-per-bandiera.jpg" />
@@ -149,7 +151,7 @@
 <!--Load top banner-->
  <!-- section start -->
       <section data-parallax="0.7" class="layout-pt-xl layout-pb-lg">
-        <div data-parallax-target class="overlay-black-md bg-image js-lazy" data-bg="asta-per-bandiera.jpg"></div>
+        <div data-parallax-target class="overlay-black-md bg-image" style="background-image:url('asta-per-bandiera.jpg')"></div>
 
         <!-- container start -->
         <div class="container z-5">

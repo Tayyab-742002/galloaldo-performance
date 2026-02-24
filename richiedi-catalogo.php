@@ -82,17 +82,17 @@ input.error {
       <header class="header -light -sticky-light js-header">
         <!-- header__bar start -->
         <div class="header__bar">
-          <div class="header__logo js-header-logo">            <a data-barba href="./"><img class="header__logo__light js-lazy" data-srcset="./img/gallo-aldo-srl-logo.png 1x, ./img/gallo-aldo-srl-logo.png 2x" data-src="./img/gallo-aldo-srl-logo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
-            </a>            <a data-barba href="./">
+          <div class="header__logo js-header-logo">            <a data-barba href="./" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio"><img class="header__logo__light js-lazy" data-srcset="./img/gallo-aldo-srl-logo.png 1x, ./img/gallo-aldo-srl-logo.png 2x" data-src="./img/gallo-aldo-srl-logo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
+            </a>            <a data-barba href="./" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
               <img class="header__logo__dark js-lazy"data-srcset="./img/logo-white-gallo-aldo.png 1x, ./img/logo-white-gallo-aldo.png 2x" data-src="./img/logo-white-gallo-aldo.png" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio">
             </a>
           </div>
 
           <div class="menustyle header__menu js-header-menu">
-            <button type="button" class="nav-button-open js-nav-open">
+            <button type="button" class="nav-button-open js-nav-open" aria-label="Menu">
               <i class="icon" data-feather="menu"></i>
             </button>
-			  <a href="https://www.galloaldo.com/en-EN/"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>  	
+			  <a href="https://www.galloaldo.com/en-EN/" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio"></a>  	
           </div>
         </div>
         <!-- header__bar end -->
@@ -105,11 +105,11 @@ input.error {
 
             <div class="nav__container">
               <div class="nav__header">
-                <button type="button" class="nav-button-back js-nav-back">
+                <button type="button" class="nav-button-back js-nav-back" aria-label="Back">
                   <i class="icon" data-feather="arrow-left-circle"></i>
                 </button>
 
-                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none" aria-label="Close">
                   <i class="icon" data-feather="x"></i>
                 </button>
               </div>
@@ -127,7 +127,7 @@ input.error {
 				<!--SWITCH LANG-->
 					<div class="nav__info__item js-navInfo-item" style="margin-top:0 !important;">
 					   <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="./en-EN/request-a-catalog.php"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36"></a>    
+                        <a href="./en-EN/request-a-catalog.php" aria-label="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio"><img src="https://www.galloaldo.com/flag/uk-flag.svg" class="mw36" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio"></a>    
                       </div>
 					   </div>
 				<!--END SWTICH LANG-->	
@@ -161,7 +161,7 @@ input.error {
 				   <h4 class=" leading-sm">
                   Inoltra la richiesta al nostro staff compilando il form sottostante:
                 </h4>
-				  <p class="pt-24"><img src="./img/catalogo-aste-per-bandiere-gallo-aldo-2023.png" style="max-width:450px"></p>
+				  <p class="pt-24"><img src="./img/catalogo-aste-per-bandiere-gallo-aldo-2023.png" style="max-width:450px" alt="Gallo Aldo aste, pennoni e accessori per bandiere made in Italy Brescia Concesio"></p>
               </div>
             </div>
           </div>
@@ -188,7 +188,7 @@ input.error {
                 </h2>
                 <p class="text-black leading-md mt-12">
                   Per informazioni e richieste specifiche
-                  <a href="mailto:info@galloaldo.com" class="fw-700">info@galloaldo.com</a>.
+                  <a href="mailto:info@galloaldo.com" class="fw-700" aria-label="info@galloaldo.com">info@galloaldo.com</a>.
                 </p>
               </div>
             </div>
@@ -300,7 +300,7 @@ input.error {
 
                 <div class="col-12">
                     
-					 <input type="checkbox" name="gdprlift" id="gdprlift" required class="css-checkbox" value="si" /><label>* Autorizzo il trattamento dei miei dati personali, ai sensi del D.lgs. 196 del 30 giugno 2003. <a href="./privacy-policy.php">Privacy Policy</a> </label>
+					 <input type="checkbox" name="gdprlift" id="gdprlift" required class="css-checkbox" value="si" /><label>* Autorizzo il trattamento dei miei dati personali, ai sensi del D.lgs. 196 del 30 giugno 2003. <a href="./privacy-policy.php" aria-label="Privacy Policy">Privacy Policy</a> </label>
 					
                   </div>
 

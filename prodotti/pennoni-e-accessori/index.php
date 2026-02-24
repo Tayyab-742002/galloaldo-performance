@@ -775,30 +775,30 @@
 <div class="split3">
     <div>
         <h5>Pennone a fune esterna per bandiera classica</h5>
-        <p><a href="istruzioni-pennoni/I.O. 1 Rev. 0  - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA CLASSICA A FUNE ESTERNA.pdf" class="bandieralink" target="_blank">I.O. 1 Rev. 0  - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA CLASSICA A FUNE ESTERNA <img src="pdf.png" style="float:left; width:40px; padding:5px;"></a></p>
+        <p><a href="istruzioni-pennoni/I.O. 1 Rev. 0  - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA CLASSICA A FUNE ESTERNA.pdf" class="bandieralink" target="_blank">I.O. 1 Rev. 0  - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA CLASSICA A FUNE ESTERNA <img src="pdf.png" style="float:left; width:40px; padding:5px;" alt=""></a></p>
     </div>
     <div>
        <br> <h5>Pennone a fune interna per bandiera classica</h5>
-        <p><a href="istruzioni-pennoni/I.O. 2 Rev. 0 - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA CLASSICA A FUNE INTERNA.pdf" class="bandieralink" target="_blank">I.O. 2 Rev. 0 - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA CLASSICA A FUNE INTERNA <img src="pdf.png" style="float:left; width:40px; padding:5px;"></a></p>
+        <p><a href="istruzioni-pennoni/I.O. 2 Rev. 0 - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA CLASSICA A FUNE INTERNA.pdf" class="bandieralink" target="_blank">I.O. 2 Rev. 0 - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA CLASSICA A FUNE INTERNA <img src="pdf.png" style="float:left; width:40px; padding:5px;"   alt=""></a></p>
     </div>
     <div>
        <br> <h5>Pennone con braccio girevole e base ribaltabile per bandiera verticale</h5>
-        <p><a href="istruzioni-pennoni/I.O. 3 Rev. 0 - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA VERTICALE CON BRACCIO GIREVOLE E BASE RIBALTABILE.pdf" class="bandieralink" target="_blank">I.O. 3 Rev. 0 - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA VERTICALE CON BRACCIO GIREVOLE E BASE RIBALTABILE <img src="pdf.png" style="float:left; width:40px; padding:5px;"></a>
+        <p><a href="istruzioni-pennoni/I.O. 3 Rev. 0 - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA VERTICALE CON BRACCIO GIREVOLE E BASE RIBALTABILE.pdf" class="bandieralink" target="_blank">I.O. 3 Rev. 0 - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA VERTICALE CON BRACCIO GIREVOLE E BASE RIBALTABILE <img src="pdf.png" style="float:left; width:40px; padding:5px;" alt=""></a>
         </p>
     </div>
 </div>
 <div class="split3">
     <div>
         <br><h5>Pennone con braccio issabile a fune esterna per bandiera verticale </h5>
-        <p><a href="istruzioni-pennoni/I.O. 4 Rev. 0 - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA VERTICALE CON BRACCIO ISSABILE A FUNE ESTERNA.pdf" class="bandieralink" target="_blank">I.O. 4 Rev. 0 - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA VERTICALE CON BRACCIO ISSABILE A FUNE ESTERNA <img src="pdf.png" style="float:left; width:40px; padding:5px;"></a></p>
+        <p><a href="istruzioni-pennoni/I.O. 4 Rev. 0 - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA VERTICALE CON BRACCIO ISSABILE A FUNE ESTERNA.pdf" class="bandieralink" target="_blank">I.O. 4 Rev. 0 - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA VERTICALE CON BRACCIO ISSABILE A FUNE ESTERNA <img src="pdf.png" style="float:left; width:40px; padding:5px;" alt=""></a></p>
     </div>
     <div>
         <br><h5>Pennone con braccio issabile a fune interna per bandiera verticale</h5>
-        <p><a href="istruzioni-pennoni/I.O. 5 Rev. 0 - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA VERTICALE CON BRACCIO ISSABILE A FUNE INTERNA.pdf" class="bandieralink" target="_blank">I.O. 5 Rev. 0 - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA VERTICALE CON BRACCIO ISSABILE A FUNE INTERNA <img src="pdf.png" style="float:left; width:40px; padding:5px;"></a></p>
+        <p><a href="istruzioni-pennoni/I.O. 5 Rev. 0 - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA VERTICALE CON BRACCIO ISSABILE A FUNE INTERNA.pdf" class="bandieralink" target="_blank">I.O. 5 Rev. 0 - ISTRUZIONI DI MONTAGGIO PENNONI PER BANDIERA VERTICALE CON BRACCIO ISSABILE A FUNE INTERNA <img src="pdf.png" style="float:left; width:40px; padding:5px;" alt=""></a></p>
     </div>
     <div>
        <br> <h5>Schema Anima da interrare</h5>
-        <p><a href="istruzioni-pennoni/SCHEMA MONTAGGIO ANIMA DA INTERRARE.pdf" class="bandieralink" target="_blank">SCHEMA MONTAGGIO ANIMA DA INTERRARE <img src="pdf.png" style="float:left; width:40px; padding:5px;"></a></p>
+        <p><a href="istruzioni-pennoni/SCHEMA MONTAGGIO ANIMA DA INTERRARE.pdf" class="bandieralink" target="_blank">SCHEMA MONTAGGIO ANIMA DA INTERRARE <img src="pdf.png" style="float:left; width:40px; padding:5px;" alt=""></a></p>
     </div>
 </div>    
             </div>

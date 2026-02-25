@@ -42,13 +42,10 @@
     img.responsive-img{height:auto}
   </style>
 
-  <!-- Vendor CSS: Bootstrap grid, Swiper, icon fonts. -->
-   <link rel="preload" href="/css/vendors.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-   <noscript><link rel="stylesheet" href="/css/vendors.css"></noscript>
-
-  <!-- Main CSS: loaded async -->
-  <link rel="preload" href="/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/css/main.css"></noscript>
+  <!-- Vendor + Main CSS: render-blocking to prevent layout shifts (CLS) -->
+  <!-- Async loading causes massive body-level CLS — synchronous is correct here -->
+  <link rel="stylesheet" href="/css/vendors.css">
+  <link rel="stylesheet" href="/css/main.css">
 
   <!-- Non-critical CSS: modal styles & WhatsApp floating button — fully async -->
   <link rel="preload" href="/css/sm.css" as="style" onload="this.onload=null;this.rel='stylesheet'">

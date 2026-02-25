@@ -454,7 +454,7 @@ button:hover, .btn:hover {
                       <div class="js-title">
                         <h1 class="sliderMain__title fw-800 text-white">
                           Aste per bandiere, pali, pennoni e accessori per bandiere
-							 <p><img src="img/italy_flag.svg" style="width: 200px" width="200" height="133" alt="Italian Flag"></p>
+							 <figure style="display:inline-block;margin:0"><img src="img/italy_flag.svg" style="width: 200px" width="200" height="133" alt="Italian Flag"></figure>
                         </h1>
 						 
                       </div>
@@ -500,7 +500,7 @@ button:hover, .btn:hover {
                       <div class="js-title">
                         <h2 class="sliderMain__title fw-800 text-white">
                          Scegli le aste per bandiere, i pali, i pennoni e gli accessori prodotti da Gallo Aldo, azienda leader nel mondo delle bandiere
-							 <p><img src="img/italy_flag.svg" style="width: 200px" width="200" height="133" alt="Italian Flag"></p>
+							 <figure style="display:inline-block;margin:0"><img src="img/italy_flag.svg" style="width: 200px" width="200" height="133" alt="Italian Flag"></figure>
                         </h2>
 						 
                       </div>
@@ -583,10 +583,12 @@ Certifica del sistema di controllo applicato all'intero ciclo produttivo e di un
  <div class="youtube-lazy-responsive">
   <img 
     src="https://img.youtube.com/vi/hHZGo6dfj4s/hqdefault.jpg" 
-    alt="YouTube Video" 
+    alt="Video Gallo Aldo – installazioni aste e pennoni per bandiere" 
     class="youtube-thumb"
     onclick="loadYouTubeVideo(this, 'hHZGo6dfj4s')"
     loading="lazy"
+    width="480"
+    height="360"
   >
   <div class="play-icon">▶</div>
 </div>
@@ -1175,7 +1177,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-lg-6 z-1">
               <div data-anim-child="img-right cover-dark-1 delay-2">
                 <div class="ratio ratio-1:1" data-parallax="0.7">
-                  <div data-parallax-target class="bg-image js-lazy" data-bg="img/home-pic/aste-accessori-bandiere-brescia.jpg"></div>
+                  <div data-parallax-target class="bg-image" style="background-image:url('img/home-pic/aste-accessori-bandiere-brescia.jpg')"></div>
                 </div>
               </div>
             </div>

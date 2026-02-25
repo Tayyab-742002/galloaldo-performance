@@ -36,20 +36,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=optional">
   </noscript>
 
-  <!-- Stylesheets - non render blocking -->
-  <link rel="preload" as="style" href="../../css/vendors.css" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" as="style" href="../../css/main.css" onload="this.onload=null;this.rel='stylesheet'">
+  <!-- Render-blocking CSS: load synchronously to prevent layout shifts (CLS) -->
+  <!-- Async loading caused 0.923 CLS by rendering unstyled layout first -->
+  <link rel="stylesheet" href="../../css/vendors.css">
+  <link rel="stylesheet" href="../../css/main.css">
   <link rel="preload" as="style" href="../../wh/venom-button.css" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript>
-    <link rel="stylesheet" href="../../css/vendors.css">
-    <link rel="stylesheet" href="../../css/main.css">
-    <link rel="stylesheet" href="../../wh/venom-button.css">
-  </noscript>
-
-  <!-- Polyfill for older browsers that don't support rel=preload -->
-  <script>
-    !function(e){"use strict";var t=function(t,n,r){function o(e){return d.body?e():void setTimeout(function(){o(e)})}function i(){f.addEventListener&&f.removeEventListener("load",i),f.media=r||"all"}var a,d=e.document,f=d.createElement("link");if(n)a=n;else{var s=(d.body||d.documentElement).style;a="undefined"!=typeof s.transition?"transition":"undefined"!=typeof s.WebkitTransition?"WebkitTransition":""}f.rel="stylesheet",f.href=t,f.media="only x",o(function(){d.head.appendChild(f)}),setTimeout(i)};e.loadCSS=t}("undefined"!=typeof global?global:this);
-  </script>
+  <noscript><link rel="stylesheet" href="../../wh/venom-button.css"></noscript>
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="57x57" href="../../img/favicon/apple-icon-57x57.png">
